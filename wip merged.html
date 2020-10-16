@@ -19,9 +19,20 @@ PAL 0
 NAME blueprint
 30,0,18
 129,3,222
-253,144,3
+255,145,3
 
 PAL 1
+26,0,255
+255,0,193
+0,140,255
+
+PAL add_fix0
+NAME blueprint
+30,0,18
+129,3,222
+253,144,3
+
+PAL add_fix1
 NAME room 3
 192,3,3
 89,2,2
@@ -52,9 +63,10 @@ e,e,e,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 NAME start room
 EXT 15,13 1 0,13
-EXT 15,7 4 0,7
+EXT 15,7 add_fix4 0,7
 EXT 0,5 add_2 15,5
-PAL 0
+EXT 8,0 2 13,13
+PAL add_fix0
 
 ROOM 1
 0,0,0,0,0,0,0,d,d,0,0,0,0,0,0,0
@@ -62,13 +74,13 @@ ROOM 1
 0,0,0,0,0,0,0,d,d,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,d,d,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,d,d,0,0,0,0,0,0,0
-0,0,0,0,0,0,a,f,h,a,0,0,0,0,0,0
-0,a,0,0,0,a,a,d,d,a,a,0,0,0,0,0
-a,0,0,0,a,a,0,d,d,0,a,0,0,0,0,0
-a,a,a,0,a,a,0,d,d,0,a,a,0,0,a,0
-0,0,0,a,a,0,0,d,d,0,0,0,a,0,0,a
-0,a,0,a,0,0,0,0,0,0,0,0,0,a,0,a
-a,0,a,0,0,0,0,0,0,0,0,0,0,a,a,a
+0,0,0,0,0,0,add_fixa,f,h,add_fixa,0,0,0,0,0,0
+0,add_fixa,0,0,0,add_fixa,add_fixa,d,d,add_fixa,add_fixa,0,0,0,0,0
+add_fixa,0,0,0,add_fixa,add_fixa,0,d,d,0,add_fixa,0,0,0,0,0
+add_fixa,add_fixa,add_fixa,0,add_fixa,add_fixa,0,d,d,0,add_fixa,add_fixa,0,0,add_fixa,0
+0,0,0,add_fixa,add_fixa,0,0,d,d,0,0,0,add_fixa,0,0,add_fixa
+0,add_fixa,0,add_fixa,0,0,0,0,0,0,0,0,0,add_fixa,0,add_fixa
+add_fixa,0,add_fixa,0,0,0,0,0,0,0,0,0,0,add_fixa,add_fixa,add_fixa
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 e,e,e,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -77,56 +89,189 @@ NAME ending 1-1
 EXT 0,13 0 15,13
 EXT 7,5 1 7,4 DLG 4
 EXT 8,5 1 8,4 DLG 4
+PAL add_fix0
+
+ROOM 2
+0,i,0,j,j,j,j,0,0,0,0,i,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,i
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,h,h,h,0
+t,t,t,j,j,j,j,0,0,0,0,0,0,0,h,0
+t,0,t,j,j,j,j,0,0,0,0,0,h,h,h,0
+q,p,r,j,j,j,j,0,0,0,0,0,0,0,0,0
+NAME level 2-1
+ITM 2 1,14
+EXT 11,0 3 11,15
+EXT 1,0 3 1,15
+EXT 13,13 0 8,0
+PAL 0
+
+ROOM 3
+0,i,0,j,j,j,j,0,0,0,0,i,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,k
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,l,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,k
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,i,0,j,j,j,j,0,0,0,0,i,0,0,0,0
+NAME level 2-2
+EXT 11,15 2 11,0
+EXT 12,12 2 13,13 DLG b
+EXT 11,12 2 13,13 DLG c
+EXT 14,12 2 13,13 DLG 9
+EXT 8,7 2 13,13 DLG g
+EXT 12,12 2 13,13
+EXT 13,12 2 13,13 DLG a
+EXT 12,3 2 13,13 DLG j
+EXT 9,7 2 13,13 DLG f
+EXT 11,7 2 13,13 DLG d
+EXT 10,7 2 13,13 DLG e
+EXT 11,3 2 13,13 DLG 8
+EXT 14,3 2 13,13 DLG h
+EXT 13,3 2 13,13 DLG i
+EXT 11,0 4 11,15
+EXT 1,0 4 1,15
+EXT 1,15 2 1,0
 PAL 0
 
 ROOM 4
-0,0,0,0,0,0,0,0,o,d,d,o,0,0,0,0
-0,0,0,0,0,0,0,0,o,d,d,o,0,0,0,0
-0,0,0,0,o,o,o,o,o,d,d,o,o,o,0,0
-0,0,0,0,o,0,0,0,0,0,0,0,0,o,0,0
-0,0,0,0,o,0,0,0,0,0,0,0,0,o,o,0
-0,0,0,0,o,0,0,0,0,0,0,0,0,0,o,0
-o,o,o,o,o,0,0,0,0,0,0,0,0,0,o,0
-e,e,e,e,e,0,0,0,0,0,0,0,0,0,o,0
-o,o,o,o,o,0,0,0,0,0,0,0,0,0,o,0
-o,o,o,o,o,0,0,0,0,0,0,0,0,0,o,0
-o,0,0,0,0,0,0,0,0,0,0,0,0,0,o,0
-o,0,0,0,0,0,0,0,0,0,0,0,0,0,o,o
-o,0,0,0,0,0,0,0,0,0,0,0,0,0,e,e
-o,0,0,0,0,0,0,0,0,0,0,0,0,0,e,e
-o,o,o,o,o,o,o,o,d,d,o,o,o,o,o,o
-o,o,o,o,o,o,o,o,d,d,o,0,0,0,0,0
-NAME level 3-1
-EXT 15,13 6 0,13
-EXT 9,0 5 9,15
-EXT 10,0 5 10,15
-EXT 8,15 7 8,15
-EXT 9,15 7 9,15
-EXT 15,12 6 0,12
-EXT 0,7 0 15,7
-PAL 1
+0,i,0,j,j,j,j,0,0,0,0,i,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,u,0,0,k
+0,0,0,j,j,j,j,0,0,l,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,k,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,l,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,l,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,k,l,0,u
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,k
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,i,0,j,j,j,j,0,0,0,0,i,0,0,0,0
+NAME level 2-3
+EXT 12,12 2 13,13 DLG b
+EXT 11,12 2 13,13 DLG c
+EXT 14,10 2 13,13 DLG 9
+EXT 8,7 2 13,13 DLG g
+EXT 12,12 2 13,13
+EXT 13,12 2 13,13 DLG a
+EXT 9,7 2 13,13 DLG f
+EXT 11,7 2 13,13 DLG d
+EXT 10,7 2 13,13 DLG e
+EXT 14,3 2 13,13 DLG h
+EXT 13,3 2 13,13 DLG i
+EXT 11,15 3 11,0
+EXT 11,0 5 11,15
+EXT 1,0 5 1,15
+EXT 1,15 3 1,0
+EXT 14,12 2 13,13 DLG a
+EXT 8,5 2 13,13 DLG 9
+EXT 10,9 2 13,13 DLG 9
+EXT 11,9 2 13,13 DLG 9
+EXT 12,9 2 13,13 DLG 9
+EXT 13,9 2 13,13 DLG 9
+EXT 8,10 2 13,13 DLG 9
+EXT 9,10 2 13,13 DLG 9
+EXT 10,10 2 13,13 DLG 9
+EXT 11,10 2 13,13 DLG 9
+EXT 9,5 2 13,13 DLG 9
+EXT 10,5 2 13,13 DLG 9
+EXT 10,4 2 13,13 DLG 9
+EXT 11,4 2 13,13 DLG 9
+EXT 12,4 2 13,13 DLG 9
+EXT 13,4 2 13,13 DLG 9
+EXT 11,5 2 13,13 DLG 9
+PAL 0
 
 ROOM 5
-o,0,0,0,0,d,0,0,0,0,0,0,o,o,o,o
-o,o,0,0,0,d,0,0,0,0,o,o,o,o,0,0
-0,o,o,0,0,0,0,0,0,o,o,o,0,0,0,0
-0,0,0,o,0,0,0,0,o,o,o,o,0,0,e,e
-e,e,0,o,o,0,0,o,o,0,0,0,0,0,0,0
-0,0,0,0,o,o,o,o,0,0,0,0,0,0,0,0
-o,o,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-o,o,o,0,0,0,0,0,0,0,0,0,0,0,0,0
-o,o,o,o,0,0,0,0,0,0,0,0,0,0,0,0
-o,o,o,o,0,0,0,0,0,0,0,0,0,0,o,o
-0,0,0,0,0,0,0,0,0,0,0,0,0,o,o,0
-e,e,0,0,0,0,0,0,0,0,0,0,o,o,0,0
-0,0,0,0,0,o,o,o,o,0,0,o,o,0,e,e
-o,o,o,o,o,o,0,0,o,d,d,o,o,o,0,0
-o,o,0,0,o,o,0,0,o,d,d,o,o,o,o,0
-o,0,0,0,0,o,d,d,o,d,d,o,o,o,o,o
-NAME level 3-2
-EXT 9,15 4 9,0
-EXT 10,15 4 10,0
-PAL 1
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,m,m,m,m,0,0,0,0,0,k,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,k
+0,0,0,j,j,j,j,0,0,l,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,l,0,0,u,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,l,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,l,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,l,0,0,u,0,0
+0,0,0,j,j,j,j,0,0,0,0,k,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,k
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,i,0,j,j,j,j,0,0,0,0,i,0,0,0,0
+NAME level 2-4
+ITM 1 15,9
+ITM 3 15,15
+ITM 3 7,11
+ITM 3 15,1
+ITM 3 7,0
+ITM 1 15,5
+ITM 3 7,6
+EXT 11,12 2 13,13 DLG c
+EXT 14,12 2 13,13 DLG 9
+EXT 8,7 2 13,13 DLG g
+EXT 12,12 2 13,13 DLG n
+EXT 13,12 2 13,13 DLG a
+EXT 11,7 2 13,13 DLG j
+EXT 9,7 2 13,13 DLG f
+EXT 10,7 2 13,13 DLG e
+EXT 11,3 2 13,13 DLG 8
+EXT 14,3 2 13,13 DLG h
+EXT 13,3 2 13,13 DLG i
+EXT 11,15 4 11,0
+EXT 1,15 4 1,0
+EXT 6,1 5 5,1 DLG l
+EXT 5,1 5 6,1
+EXT 7,0 5 10,15 DLG d
+EXT 15,9 5 10,15 DLG d
+EXT 15,1 5 10,15 DLG d
+EXT 7,6 5 10,15 DLG d
+EXT 7,11 5 10,15 DLG d
+EXT 15,15 5 10,15 DLG d
+EXT 8,1 2 13,13 DLG 8
+EXT 10,4 2 13,13 DLG 8
+EXT 9,1 2 13,13 DLG 8
+EXT 10,1 2 13,13 DLG 8
+EXT 11,1 2 13,13 DLG 8
+EXT 11,9 2 13,13 DLG 8
+EXT 12,9 2 13,13 DLG 8
+EXT 7,10 2 13,13 DLG 8
+EXT 8,10 2 13,13 DLG 8
+EXT 9,10 2 13,13 DLG 8
+EXT 10,10 2 13,13 DLG 8
+EXT 8,8 2 13,13 DLG 8
+EXT 9,8 2 13,13 DLG 8
+EXT 10,8 2 13,13 DLG 8
+EXT 11,8 2 13,13 DLG 8
+EXT 12,3 2 13,13 DLG 8
+EXT 11,4 2 13,13 DLG 8
+EXT 12,4 2 13,13 DLG 8
+EXT 13,4 2 13,13 DLG 8
+EXT 12,5 2 13,13 DLG 8
+EXT 13,5 2 13,13 DLG 8
+PAL 0
 
 ROOM 6
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -146,9 +291,9 @@ e,e,e,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 NAME level 3-3
-EXT 0,12 4 15,12
-EXT 0,13 4 15,13
-PAL 1
+EXT 0,12 add_fix4 15,12
+EXT 0,13 add_fix4 15,13
+PAL add_fix1
 
 ROOM 7
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -168,9 +313,58 @@ ROOM 7
 0,0,0,0,0,0,0,0,d,d,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,d,d,0,0,0,0,0,0
 NAME level 3-4
-EXT 8,15 4 8,15
-EXT 9,15 4 9,15
-PAL 1
+EXT 8,15 add_fix4 8,15
+EXT 9,15 add_fix4 9,15
+PAL add_fix1
+
+ROOM add_fix4
+0,0,0,0,0,0,0,0,o,d,d,o,0,0,0,0
+0,0,0,0,0,0,0,0,o,d,d,o,0,0,0,0
+0,0,0,0,o,o,o,o,o,d,d,o,o,o,0,0
+0,0,0,0,o,0,0,0,0,0,0,0,0,o,0,0
+0,0,0,0,o,0,0,0,0,0,0,0,0,o,o,0
+0,0,0,0,o,0,0,0,0,0,0,0,0,0,o,0
+o,o,o,o,o,0,0,0,0,0,0,0,0,0,o,0
+e,e,e,e,e,0,0,0,0,0,0,0,0,0,o,0
+o,o,o,o,o,0,0,0,0,0,0,0,0,0,o,0
+o,o,o,o,o,0,0,0,0,0,0,0,0,0,o,0
+o,0,0,0,0,0,0,0,0,0,0,0,0,0,o,0
+o,0,0,0,0,0,0,0,0,0,0,0,0,0,o,o
+o,0,0,0,0,0,0,0,0,0,0,0,0,0,e,e
+o,0,0,0,0,0,0,0,0,0,0,0,0,0,e,e
+o,o,o,o,o,o,o,o,d,d,o,o,o,o,o,o
+o,o,o,o,o,o,o,o,d,d,o,0,0,0,0,0
+NAME level 3-1
+EXT 15,13 6 0,13
+EXT 9,0 add_fix5 9,15
+EXT 10,0 add_fix5 10,15
+EXT 8,15 7 8,15
+EXT 9,15 7 9,15
+EXT 15,12 6 0,12
+EXT 0,7 0 15,7
+PAL add_fix1
+
+ROOM add_fix5
+o,0,0,0,0,d,0,0,0,0,0,0,o,o,o,o
+o,o,0,0,0,d,0,0,0,0,o,o,o,o,0,0
+0,o,o,0,0,0,0,0,0,o,o,o,0,0,0,0
+0,0,0,o,0,0,0,0,o,o,o,o,0,0,e,e
+e,e,0,o,o,0,0,o,o,0,0,0,0,0,0,0
+0,0,0,0,o,o,o,o,0,0,0,0,0,0,0,0
+o,o,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+o,o,o,0,0,0,0,0,0,0,0,0,0,0,0,0
+o,o,o,o,0,0,0,0,0,0,0,0,0,0,0,0
+o,o,o,o,0,0,0,0,0,0,0,0,0,0,o,o
+0,0,0,0,0,0,0,0,0,0,0,0,0,o,o,0
+e,e,0,0,0,0,0,0,0,0,0,0,o,o,0,0
+0,0,0,0,0,o,o,o,o,0,0,o,o,0,e,e
+o,o,o,o,o,o,0,0,o,d,d,o,o,o,0,0
+o,o,0,0,o,o,0,0,o,d,d,o,o,o,o,0
+o,0,0,0,0,o,d,d,o,d,d,o,o,o,o,o
+NAME level 3-2
+EXT 9,15 add_fix4 9,0
+EXT 10,15 add_fix4 10,0
+PAL add_fix1
 
 ROOM add_0
 0,0,0,0,0,0,0,0,add_d,0,0,0,0,0,0,0
@@ -191,7 +385,7 @@ add_e,add_e,add_e,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 NAME start room
 EXT 15,13 add_1 0,13
-PAL 0
+PAL add_fix0
 
 ROOM add_1
 0,0,0,0,0,0,0,add_d,add_d,0,0,0,0,0,0,0
@@ -199,13 +393,13 @@ ROOM add_1
 0,0,0,0,0,0,0,add_d,add_d,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,add_d,add_d,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,add_d,add_d,0,0,0,0,0,0,0
-0,0,0,0,0,0,a,f,h,a,0,0,0,0,0,0
-0,a,0,0,0,a,a,add_d,add_d,a,a,0,0,0,0,0
-a,0,0,0,a,a,0,add_d,add_d,0,a,0,0,0,0,0
-a,a,a,0,a,a,0,add_d,add_d,0,a,a,0,0,a,0
-0,0,0,a,a,0,0,add_d,add_d,0,0,0,a,0,0,a
-0,a,0,a,0,0,0,0,0,0,0,0,0,a,0,a
-a,0,a,0,0,0,0,0,0,0,0,0,0,a,a,a
+0,0,0,0,0,0,add_fixa,f,h,add_fixa,0,0,0,0,0,0
+0,add_fixa,0,0,0,add_fixa,add_fixa,add_d,add_d,add_fixa,add_fixa,0,0,0,0,0
+add_fixa,0,0,0,add_fixa,add_fixa,0,add_d,add_d,0,add_fixa,0,0,0,0,0
+add_fixa,add_fixa,add_fixa,0,add_fixa,add_fixa,0,add_d,add_d,0,add_fixa,add_fixa,0,0,add_fixa,0
+0,0,0,add_fixa,add_fixa,0,0,add_d,add_d,0,0,0,add_fixa,0,0,add_fixa
+0,add_fixa,0,add_fixa,0,0,0,0,0,0,0,0,0,add_fixa,0,add_fixa
+add_fixa,0,add_fixa,0,0,0,0,0,0,0,0,0,0,add_fixa,add_fixa,add_fixa
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 add_e,add_e,add_e,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -214,7 +408,7 @@ NAME ending 1-1
 EXT 0,13 add_0 15,13
 EXT 7,5 add_1 7,4 DLG 4
 EXT 8,5 add_1 8,4 DLG 4
-PAL 0
+PAL add_fix0
 
 ROOM add_2
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -226,9 +420,9 @@ ROOM add_2
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-l,l,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+add_fixl,add_fixl,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 add_e,add_e,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-k,k,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+add_fixk,add_fixk,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -256,7 +450,7 @@ add_n,add_n,0,add_n,add_n,add_n,0,0,add_n,0,add_n,0,0,add_n,0,add_n
 0,0,0,0,0,add_n,0,0,0,0,0,add_n,add_n,add_n,0,0
 0,0,0,0,0,0,add_n,add_n,add_n,0,add_n,0,0,0,0,0
 NAME level 1-2
-ITM 3 9,2
+ITM add_fix3 9,2
 EXT 8,0 add_4 8,15
 EXT 9,15 add_2 2,10
 PAL add_1
@@ -304,8 +498,8 @@ add_n,0,add_n,add_o,add_e,add_o,add_n,add_n,0,add_n,add_n,0,0,0,add_n,add_n
 add_n,0,add_n,add_n,add_n,add_n,add_n,add_n,add_n,add_n,0,add_n,add_n,add_n,add_n,0
 add_n,add_n,add_n,add_n,add_n,add_n,add_n,add_n,add_n,add_n,0,0,0,0,0,0
 NAME level 1-4
-ITM 2 8,8
-ITM 3 12,11
+ITM add_fix2 8,8
+ITM add_fix3 12,11
 EXT 15,3 add_4 0,3
 EXT 7,3 add_5 9,3 DLG b
 EXT 5,3 add_5 9,3 DLG b
@@ -315,13 +509,13 @@ PAL add_1
 
 TIL a
 00000000
-00000000
-00000000
-00001000
-00101000
-00101110
-11000111
-10001101
+01101110
+01110000
+00011010
+00000110
+01011100
+01101000
+11100110
 NAME debris
 WAL true
 
@@ -372,6 +566,189 @@ NAME gate2
 WAL true
 
 TIL i
+11111110
+10000010
+10000010
+10000010
+10100010
+10000010
+10000010
+10000010
+NAME 2-door
+
+TIL j
+11011010
+10010001
+10011000
+11000100
+01000100
+01001101
+11011001
+10010010
+>
+00100101
+01001000
+01001100
+10100101
+10100101
+10100100
+01001100
+11010001
+NAME 2-water
+WAL true
+
+TIL k
+00000000
+00111100
+00111011
+00111000
+11111100
+00111010
+00101000
+00101000
+>
+00000000
+00111100
+00111110
+00111000
+11111100
+00111010
+00101000
+00101000
+NAME 2-rightguard
+WAL true
+
+TIL l
+00000000
+00111100
+11011100
+00011100
+00111111
+01011100
+00010100
+00010100
+>
+00000000
+00111100
+01111100
+00011100
+00111111
+01011100
+00010100
+00010100
+NAME 2-leftguard
+WAL true
+
+TIL m
+10101010
+11111111
+00000000
+11111111
+11111111
+00000000
+11111111
+10101010
+NAME bridge
+
+TIL p
+00000000
+00000000
+11111111
+00000000
+11111111
+00000000
+11111111
+11111111
+NAME 2-sigil3
+WAL true
+
+TIL q
+00000000
+00000000
+00000001
+00000011
+00000110
+00001100
+00011001
+00110011
+NAME 2-sigil1
+WAL true
+
+TIL r
+00000000
+00000000
+10000000
+11000000
+01100000
+00110000
+10011000
+11001100
+NAME 2-sigil2
+
+TIL s
+00000000
+01010001
+00000100
+00010000
+01000100
+00010010
+00000000
+10010010
+>
+00000000
+00100101
+00000000
+10000100
+00010001
+00000000
+01000100
+00000000
+NAME 2-sparkle
+
+TIL t
+01000001
+00000000
+00000000
+00001000
+01000001
+00000000
+00001000
+01000000
+>
+00000000
+00001000
+01000001
+00000000
+00001000
+01000000
+00000010
+00100000
+NAME sparkle2
+
+TIL u
+00011000
+00111100
+01100110
+01000010
+10000001
+10001001
+10100101
+10110101
+NAME 2-rock
+
+TIL add_fixa
+00000000
+00000000
+00000000
+00001000
+00101000
+00101110
+11000111
+10001101
+NAME debris
+WAL true
+
+TIL add_fixi
 10000000
 10000000
 10000000
@@ -383,7 +760,7 @@ TIL i
 NAME wallLeft
 WAL true
 
-TIL j
+TIL add_fixj
 00000001
 00000001
 00000001
@@ -395,7 +772,7 @@ TIL j
 NAME wallRight
 WAL true
 
-TIL k
+TIL add_fixk
 11111111
 00000000
 00000000
@@ -407,7 +784,7 @@ TIL k
 NAME wallTop
 WAL true
 
-TIL l
+TIL add_fixl
 00000000
 00000000
 00000000
@@ -419,7 +796,7 @@ TIL l
 NAME wallBottom
 WAL true
 
-TIL m
+TIL add_fixm
 00000000
 00000000
 00000000
@@ -451,7 +828,7 @@ TIL o
 NAME magma block
 WAL true
 
-TIL p
+TIL add_fixp
 00000000
 00000000
 00000000
@@ -552,16 +929,58 @@ SPR b
 11111111
 10000001
 10111101
+10000001
+11111111
+00011000
+00011000
+00011000
+NAME sign2
+DLG 7
+
+SPR d
+00001000
+00011000
+00000011
+10011010
+10100000
+00000011
+00010001
+00011000
+NAME deadbody2
+
+SPR add_fixA
+00000000
+00000000
+00000000
+00011100
+01111100
+00011100
+00111100
+00010100
+>
+00000000
+00000000
+00000000
+00111100
+11011100
+00011100
+00111100
+00010100
+
+SPR add_fixb
+11111111
+10000001
+10111101
 10001001
 11111111
 00011000
 00011000
 00011000
 NAME sign A
-DLG 7
-POS 5 9,7
+DLG add_fix7
+POS add_fix5 9,7
 
-SPR d
+SPR add_fixd
 00001000
 00011000
 00000011
@@ -582,7 +1001,7 @@ SPR e
 10001000
 11111000
 NAME sign3
-DLG 8
+DLG add_fix8
 POS 2 2,11
 
 SPR f
@@ -604,7 +1023,7 @@ SPR f
 00111100
 00100100
 NAME NPC1
-DLG 9
+DLG add_fix9
 POS 2 2,10
 
 SPR g
@@ -626,8 +1045,8 @@ SPR g
 11000011
 11111111
 NAME chest 1
-DLG a
-POS 5 10,7
+DLG add_fixa
+POS add_fix5 10,7
 
 SPR h
 00000000
@@ -639,8 +1058,8 @@ SPR h
 00000010
 00000110
 NAME key 1
-DLG b
-POS 5 7,13
+DLG add_fixb
+POS add_fix5 7,13
 
 SPR add_A
 00000000
@@ -763,7 +1182,7 @@ SPR j
 00000000
 00000000
 NAME notes
-DLG c
+DLG add_fixc
 POS add_4 15,3
 
 SPR k
@@ -822,7 +1241,52 @@ SPR p
 00000000
 00000000
 
+ITM 0
+00000000
+00000000
+00000000
+01110000
+01011110
+01110110
+00000000
+00000000
+NAME bloody key
+
 ITM 1
+00000000
+00111100
+00100100
+00111100
+00010000
+00011000
+00010000
+00011000
+NAME 2-key
+DLG m
+
+ITM 2
+00000000
+00001000
+00011000
+00111100
+01110110
+01100110
+01100110
+00111100
+NAME 2-water orb
+
+ITM 3
+00000000
+00111100
+00100100
+00111100
+00010000
+00011000
+00010000
+00011000
+NAME 2-fake key
+
+ITM add_fix1
 00000000
 00111100
 00100100
@@ -833,7 +1297,7 @@ ITM 1
 00011000
 NAME key
 
-ITM 2
+ITM add_fix2
 00000000
 00000000
 00000000
@@ -843,9 +1307,9 @@ ITM 2
 01111110
 01111110
 NAME sneak
-DLG d
+DLG add_fixd
 
-ITM 3
+ITM add_fix3
 00011000
 00100100
 01100110
@@ -863,7 +1327,7 @@ ITM 3
 01100110
 00100100
 00011000
-DLG f
+DLG add_fixf
 
 DLG 0
 NAME sign dialog
@@ -901,10 +1365,81 @@ DLG 5
 NAME locked exit 2
 
 DLG 7
-The chest contains the fire orb.
 NAME sign2 dialog
 
 DLG 8
+Hey trespasser, you're not allowed here!
+NAME exit narration 1
+
+DLG 9
+Hey trespasser, you're not allowed here!
+NAME exit narration 2
+
+DLG a
+Hey trespasser, you're not allowed here!
+NAME exit narration 3
+
+DLG b
+Hey trespasser, you're not allowed here!
+NAME exit narration 4
+
+DLG c
+Hey trespasser, you're not allowed here!
+NAME exit narration 5
+
+DLG d
+You've triggered the trap of the fake key!
+NAME exit narration 6
+
+DLG f
+Hey trespasser, you're not allowed here!
+NAME exit narration 8
+
+DLG g
+Hey trespasser, you're not allowed here!
+NAME exit narration 9
+
+DLG h
+Hey trespasser, you're not allowed here!
+NAME exit narration 10
+
+DLG i
+Hey trespasser, you're not allowed here!
+NAME exit narration 11
+
+DLG j
+Hey trespasser, you're not allowed here!
+NAME exit narration 12
+
+DLG k
+You've picked up the water sigil.
+NAME water sigil dialog
+
+DLG l
+"""
+{
+  - {item "1"} >= 1 ?
+    {property locked false}
+    The key opens the door!
+  - else ?
+    {property locked true}
+    The door is locked...
+}
+"""
+NAME locked exit 3
+
+DLG m
+NAME key dialog
+
+DLG n
+Hey trespasser, you're not allowed here!
+NAME exit narration 13
+
+DLG add_fix7
+The chest contains the fire orb.
+NAME sign2 dialog
+
+DLG add_fix8
 """
 The sign reads,
 "HEAVILY GUARDED COMPOUND
@@ -912,7 +1447,7 @@ PRIVATE PROPERTY"
 """
 NAME sign3 dialog
 
-DLG 9
+DLG add_fix9
 """
 My buddy tried sneaking in.
 He hasn't been back for a while... could you go look for him?
@@ -920,11 +1455,11 @@ He hasn't been back for a while... could you go look for him?
 """
 NAME NPC1 dialog
 
-DLG a
+DLG add_fixa
 Need a key to open.
 NAME chest 1 dialog
 
-DLG b
+DLG add_fixb
 Obtain key.
 NAME key 1 dialog
 
@@ -965,7 +1500,7 @@ DLG add_b
 """
 NAME pass guard
 
-DLG c
+DLG add_fixc
 """
 It's a note.
 It says,
@@ -974,7 +1509,7 @@ Also, the guards seem to detect heat."
 """
 NAME notes dialog
 
-DLG d
+DLG add_fixd
 You find some giant boots. When you put them on, you feel a lot colder.
 NAME sneak dialog
 
@@ -991,7 +1526,7 @@ DLG e
 """
 NAME locked exit 3
 
-DLG f
+DLG add_fixf
 """
 It's the Earth Orb!
 You pick it up.
