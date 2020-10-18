@@ -54,7 +54,7 @@ e,e,e,0,0,0,0,add_fixa,0,0,add_fixa,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,e,e,e
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,add_fixa,0,0,0,0,0,0,add_fixa,0,0,0,0,0
+0,0,0,add_fixa,0,0,0,0,0,0,add_fixa,0,0,0,0,add_d
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,add_fixa,0,0,0,0
@@ -215,7 +215,7 @@ ROOM 5
 0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,k
 0,0,0,j,j,j,j,0,0,l,0,0,0,0,0,0
 0,0,0,j,j,j,j,0,0,0,0,l,0,0,u,0
-0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,d
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,add_d
 0,0,0,j,j,j,j,l,0,0,0,0,0,0,0,0
 0,0,0,j,j,j,j,l,0,0,0,0,0,0,0,0
 0,0,0,j,j,j,j,0,0,0,l,0,0,u,0,0
@@ -322,9 +322,9 @@ EXT 9,15 add_fix4 9,15
 PAL add_fix1
 
 ROOM add_fix4
-0,0,0,0,0,0,0,0,o,d,d,o,0,0,0,0
-0,0,0,0,0,0,0,0,o,d,d,o,0,0,0,0
-0,0,0,0,o,o,o,o,o,d,d,o,o,o,0,0
+0,0,0,0,0,0,0,0,o,add_d,add_d,o,0,0,0,0
+0,0,0,0,0,0,0,0,o,add_d,add_d,o,0,0,0,0
+0,0,0,0,o,o,o,o,o,add_d,add_d,o,o,o,0,0
 0,0,0,0,o,0,0,0,0,0,0,0,0,o,0,0
 0,0,0,0,o,0,0,0,0,0,0,0,0,o,o,0
 0,0,0,0,o,0,0,0,0,0,0,0,0,0,o,0
@@ -336,8 +336,8 @@ o,0,0,0,0,0,0,0,0,0,0,0,0,0,o,0
 o,0,0,0,0,0,0,0,0,0,0,0,0,0,o,o
 o,0,0,0,0,0,0,0,0,0,0,0,0,0,e,e
 o,0,0,0,0,0,0,0,0,0,0,0,0,0,e,e
-o,o,o,o,o,o,o,o,d,d,o,o,o,o,o,o
-o,o,o,o,o,o,o,o,d,d,o,0,0,0,0,0
+o,o,o,o,o,o,o,o,add_d,add_d,o,o,o,o,o,o
+o,o,o,o,o,o,o,o,add_d,add_d,o,0,0,0,0,0
 NAME level 3-1
 EXT 15,13 6 0,13
 EXT 9,0 add_fix5 9,15
@@ -349,8 +349,8 @@ EXT 0,7 0 15,7
 PAL add_fix1
 
 ROOM add_fix5
-0,0,0,o,0,d,0,0,0,0,o,0,0,0,0,0
-0,0,0,o,0,d,0,0,0,0,o,0,0,0,0,0
+0,0,0,o,0,d,0,add_d,add_d,0,o,0,0,0,0,0
+0,0,0,o,0,d,0,add_d,add_d,0,o,0,0,0,0,0
 o,o,o,o,0,0,0,0,0,0,o,0,0,0,0,0
 0,0,0,o,0,0,0,0,0,0,o,0,0,0,e,e
 e,e,0,o,o,o,o,o,o,o,o,o,0,0,0,0
@@ -364,7 +364,7 @@ e,e,0,o,0,0,0,0,0,0,0,o,0,0,0,0
 0,0,0,o,o,o,o,o,o,0,0,o,0,0,e,e
 o,o,o,o,o,o,0,0,o,d,d,o,0,0,0,0
 0,0,0,0,0,o,0,0,o,d,d,o,0,0,0,0
-0,0,0,0,0,o,d,d,o,d,d,o,o,o,o,o
+0,0,0,0,0,o,add_d,add_d,o,d,d,o,o,o,o,o
 NAME level 3-2
 ITM ade 7,13
 EXT 9,15 add_fix4 9,0
@@ -424,11 +424,11 @@ add_n,add_n,add_n,add_n,add_n,add_n,0,add_n,add_n,add_n,add_n,add_n,add_n,add_n,
 add_n,add_n,add_n,0,0,0,0,0,0,add_n,add_n,add_n,add_n,0,add_n,add_n
 0,0,add_n,0,add_n,add_n,add_n,add_n,add_n,add_n,0,0,add_n,0,add_n,0
 0,add_n,add_n,0,add_n,add_n,add_n,add_n,0,add_n,0,0,add_n,0,add_n,0
-0,add_n,0,0,0,0,0,0,0,add_o,0,0,add_o,add_e,add_n,0
+0,add_n,0,add_d,0,0,0,0,0,add_o,add_e,add_e,add_o,0,add_n,0
 0,add_n,add_n,add_n,add_n,add_n,add_n,add_n,0,add_n,0,0,add_n,0,add_n,0
 0,0,0,add_n,add_n,add_n,add_n,add_n,0,add_n,0,0,add_n,0,add_n,0
 0,0,0,add_n,0,0,0,0,0,add_n,0,0,add_n,0,add_n,0
-0,0,0,add_n,add_n,add_n,0,0,0,add_n,0,0,add_n,0,add_n,0
+0,0,0,add_n,add_n,add_n,add_n,add_n,0,add_n,0,0,add_n,0,add_n,0
 0,0,0,0,0,0,add_n,add_n,0,add_n,add_n,add_n,add_n,0,add_n,0
 0,0,0,0,0,0,add_n,add_n,0,0,0,0,0,0,add_n,0
 0,0,0,0,0,0,0,add_n,0,add_n,add_n,add_n,add_n,add_n,add_n,0
@@ -457,7 +457,7 @@ add_n,0,add_n,0,0,0,0,0,0,add_n,add_n,0,0,0,add_n,add_n
 add_n,0,add_n,add_n,add_n,add_o,add_n,add_n,add_n,add_n,0,0,0,0,0,add_n
 add_n,add_e,add_o,add_d,add_n,add_o,0,0,0,0,0,0,0,0,0,add_n
 add_n,0,add_n,add_o,add_n,add_d,0,0,0,0,0,0,0,0,0,add_n
-add_n,0,add_n,add_o,add_e,add_o,add_n,add_n,0,add_n,add_n,0,0,0,add_n,add_n
+add_n,0,add_n,add_e,add_o,add_o,add_n,add_n,0,add_n,add_n,0,0,0,add_n,add_n
 add_n,0,add_n,add_n,add_n,add_n,add_n,add_n,add_n,add_n,0,add_n,add_n,add_n,add_n,0
 add_n,add_n,add_n,add_n,add_n,add_n,add_n,add_n,add_n,add_n,0,0,0,0,0,0
 NAME level 1-4
@@ -484,14 +484,14 @@ NAME debris
 WAL true
 
 TIL d
-01100100
-00100100
-00100110
-01100010
-01000010
-00010011
-01110001
-01000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
 NAME grassLead
 
 TIL e
@@ -760,26 +760,6 @@ TIL add_fixl
 NAME wallBottom
 WAL true
 
-TIL add_fixm
-00000000
-00000000
-00000000
-00000000
-00000000
-00000000
-00000000
-00000000
-
-TIL n
-00000000
-00000000
-00000000
-00000000
-00000000
-00000000
-00000000
-00000000
-
 TIL o
 11111111
 11110011
@@ -792,29 +772,19 @@ TIL o
 NAME 3-magmablock
 WAL true
 
-TIL add_fixp
-00000000
-00000000
-00000000
-00000000
-00000000
-00000000
-00000000
-00000000
-
 TIL add_d
 00000000
-00100100
-00100110
-01100010
-01000010
-00010010
-00110001
-00100000
+00010000
+01010100
+01010100
+01010100
+01010100
+01000100
+00000000
 NAME grassLead
 
 TIL add_e
-00011000
+00000000
 01110000
 00000110
 00111100
@@ -1151,6 +1121,16 @@ SPR adf
 01000010
 NAME Guard6
 
+SPR adh
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+
 ITM 1
 00000000
 00111100
@@ -1352,7 +1332,7 @@ The chest contains the fire orb.
 NAME sign2 dialog
 
 DLG add_7
-These trails always seem to lead somewhere...
+The markings on the floor seem to lead to certain areas...
 NAME sign2 dialog
 
 DLG add_8
@@ -1392,7 +1372,7 @@ DLG add_fixc
 """
 It's a note.
 It says,
-"Look around for fake walls... or in this case, trees.
+"Look around for fake trees... unfortunately, they all look the same, but there might be another clue that'll help you find them.
 Also, the guards seem to detect noise. Some quiet boots would come in handy..."
 """
 NAME notes dialog
@@ -1429,30 +1409,12 @@ DLG adf
 As you pass the fake tree, it morphs into a real tree. Looks like you can't go back this way.
 NAME exit narration 14
 
-DLG adg
-"""
-{
-  - {item "3-key"} == 1 ?
-    You have obtained the Fire orb.
-  - else ?
-    You need a key to open the chest.
-}
-"""
-NAME 3-chest dialog
-
 DLG adj
  Obtained key.
 NAME 3-key dialog
 
 DLG m
 NAME key dialog
-
-DLG adh
- 
-
-DLG adi
-Need a key to open.
-NAME 3-chest dialog
 
 VAR sneak
 false
@@ -10384,6 +10346,7 @@ CHAR 255
 010010
 000000
 000000
+</script>
 </script>
 </script>
 </script>
