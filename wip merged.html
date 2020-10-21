@@ -45,9 +45,9 @@ NAME earth
 15,239,3
 
 ROOM 0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,add_fixa,0,0,0,0
+0,0,0,0,0,0,0,0,add_d,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,add_d,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,add_d,0,0,add_fixa,0,0,0,0
 0,0,0,add_fixa,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 e,e,e,0,0,0,0,add_fixa,0,0,add_fixa,0,0,0,0,0
@@ -73,22 +73,38 @@ ROOM 1
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,add_fixa,f,h,add_fixa,0,0,0,0,0,0
+adk,adk,adk,adk,adk,adk,adk,adk,adk,adk,adk,adk,adk,adk,adk,adk
+0,0,0,0,0,0,add_fixa,0,0,add_fixa,0,0,0,0,0,0
 0,add_fixa,0,0,0,add_fixa,add_fixa,0,0,add_fixa,add_fixa,0,0,0,0,0
 add_fixa,0,0,0,add_fixa,add_fixa,0,0,0,0,add_fixa,0,0,0,0,0
-add_fixa,add_fixa,add_fixa,0,add_fixa,add_fixa,0,0,0,0,add_fixa,add_fixa,0,0,add_fixa,0
-0,0,0,add_fixa,add_fixa,0,0,0,0,0,0,0,add_fixa,0,0,add_fixa
-0,add_fixa,0,add_fixa,0,0,0,0,0,0,0,0,0,add_fixa,0,add_fixa
-add_fixa,0,add_fixa,0,0,0,0,0,0,0,0,0,0,add_fixa,add_fixa,add_fixa
+add_fixa,add_fixa,add_fixa,0,add_fixa,add_fixa,adk,adk,adk,adk,add_fixa,add_fixa,0,0,add_fixa,0
+0,0,0,add_fixa,add_fixa,0,0,0,0,0,0,add_fixa,add_fixa,0,0,add_fixa
+0,add_fixa,0,add_fixa,add_fixa,0,0,0,0,0,0,add_fixa,add_fixa,add_fixa,0,add_fixa
+add_fixa,0,add_fixa,0,0,add_fixa,adk,adk,adk,adk,add_fixa,0,0,0,add_fixa,add_fixa
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 e,e,e,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 NAME ending 1-1
 EXT 0,13 0 15,13
-EXT 7,5 1 7,4 DLG 4
-EXT 8,5 1 8,4 DLG 4
+EXT 7,5 1 7,3
+EXT 8,5 1 8,3
+EXT 6,12 1 6,10 DLG adn
+EXT 6,10 1 6,12
+EXT 7,12 1 7,10 DLG adn
+EXT 7,10 1 7,12
+EXT 8,12 1 8,10 DLG adn
+EXT 8,10 1 8,12
+EXT 9,12 1 9,10 DLG adn
+EXT 9,10 1 9,12
+EXT 6,9 1 6,7 DLG ado
+EXT 6,7 1 6,9
+EXT 7,9 1 7,7 DLG ado
+EXT 7,7 1 7,9
+EXT 8,9 1 8,7 DLG ado
+EXT 8,7 1 8,9
+EXT 9,9 1 9,7 DLG ado
+EXT 9,7 1 9,9
 PAL add_fix0
 
 ROOM 2
@@ -104,19 +120,19 @@ ROOM 2
 0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
 0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
 0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
-0,0,0,j,j,j,j,0,0,0,0,0,h,h,h,0
-t,t,t,j,j,j,j,0,0,0,0,0,0,0,h,0
-t,0,t,j,j,j,j,0,0,0,0,0,h,h,h,0
+0,0,0,j,j,j,j,0,0,0,0,0,f,0,h,0
+t,t,t,j,j,j,j,0,0,0,0,0,f,0,h,0
+t,0,t,j,j,j,j,0,0,0,0,0,f,adj,h,0
 q,p,r,j,j,j,j,0,0,0,0,0,0,0,0,0
 NAME level 2-1
 ITM 2 1,14
 EXT 11,0 3 11,15
 EXT 1,0 3 1,15
 EXT 13,13 0 8,0
-EXT 8,5 2 11,12 DLG a
-EXT 9,5 2 11,12 DLG a
-EXT 10,5 2 11,12 DLG a
-EXT 11,5 2 11,12 DLG a
+EXT 8,5 2 13,11 DLG a
+EXT 9,5 2 13,11 DLG a
+EXT 10,5 2 13,11 DLG a
+EXT 11,5 2 13,11 DLG a
 PAL 0
 
 ROOM 3
@@ -147,7 +163,7 @@ EXT 13,12 2 13,13 DLG a
 EXT 12,3 2 13,13 DLG j
 EXT 9,7 2 13,13 DLG f
 EXT 11,7 2 13,13 DLG d
-EXT 10,7 2 13,13 DLG e
+EXT 10,7 2 13,13
 EXT 11,3 2 13,13 DLG 8
 EXT 14,3 2 13,13 DLG h
 EXT 13,3 2 13,13 DLG i
@@ -240,7 +256,7 @@ EXT 12,12 2 13,13 DLG n
 EXT 13,12 2 13,13 DLG a
 EXT 11,7 2 13,13 DLG j
 EXT 9,7 2 13,13 DLG f
-EXT 10,7 2 13,13 DLG e
+EXT 10,7 2 13,13
 EXT 11,3 2 13,13 DLG 8
 EXT 14,3 2 13,13 DLG h
 EXT 13,3 2 13,13 DLG i
@@ -580,8 +596,8 @@ WAL true
 
 TIL k
 00000000
-00111100
-00111011
+00111000
+00111110
 00111000
 11111100
 00111010
@@ -590,7 +606,7 @@ TIL k
 >
 00000000
 00111100
-00111110
+00111011
 00111000
 11111100
 00111010
@@ -601,8 +617,8 @@ WAL true
 
 TIL l
 00000000
-00111100
-11011100
+00011100
+01111100
 00011100
 00111111
 01011100
@@ -611,7 +627,7 @@ TIL l
 >
 00000000
 00111100
-01111100
+11011100
 00011100
 00111111
 01011100
@@ -810,6 +826,7 @@ TIL add_e
 00111100
 00000000
 NAME grassLead2
+WAL false
 
 TIL add_n
 00000000
@@ -912,6 +929,39 @@ TIL adi
 00000100
 NAME 3-lava
 
+TIL adj
+00000000
+01010101
+10101010
+11111111
+00000000
+11111111
+01010101
+01010101
+NAME gateMid
+WAL true
+
+TIL adk
+10101010
+01010101
+10101010
+01010101
+10101010
+01010101
+10101010
+01010101
+>
+01010101
+10101010
+01010101
+10101010
+01010101
+10101010
+01010101
+10101010
+NAME magicWall
+WAL true
+
 SPR A
 00000000
 00000000
@@ -930,7 +980,7 @@ SPR A
 00011100
 00111100
 00010100
-POS 0 9,13
+POS 0 10,13
 
 SPR d
 00001000
@@ -1168,23 +1218,23 @@ SPR ade
 00000000
 00000000
 00000000
-01110010
-01011100
-01010100
-01111100
-01010000
+00001110
+10111010
+00101010
+00111110
+00001010
 >
 00000000
 00000000
 00000000
-01110000
-01011101
-01010100
-01111100
-01010000
+01001110
+00111010
+00101010
+00111110
+00001010
 NAME oldman
 DLG ade
-POS 0 6,9
+POS 0 12,12
 
 SPR adf
 00000000
@@ -1206,15 +1256,27 @@ SPR adf
 01000010
 NAME Guard6
 
-SPR adh
-00000000
-00000000
-00000000
-00000000
-00000000
-00000000
-00000000
-00000000
+SPR adi
+00011000
+01100110
+00111100
+00100100
+01100110
+10100101
+00100100
+00011000
+>
+00011000
+01100110
+00111100
+10100101
+01100110
+00100100
+00100100
+00011000
+NAME Weenie
+DLG adl
+POS 1 8,2
 
 ITM 1
 00000000
@@ -1226,7 +1288,6 @@ ITM 1
 00010000
 00011000
 NAME 2-key
-DLG m
 
 ITM 2
 00000000
@@ -1316,24 +1377,6 @@ ITM adf
 00000000
 00000000
 
-DLG 3
- 
-
-DLG 4
-"""
-{
-  - {item "0"} >= 1 ?
-    {property locked false}
-    The gate creaks open...
-    It snaps shut behind you.
-    The only way is forward.
-  - else ?
-    {property locked true}
-    The gate is locked.
-}
-"""
-NAME locked exit 1
-
 DLG 5
 """
 {
@@ -1392,8 +1435,8 @@ Hey trespasser, you're not allowed here!
 NAME exit narration 12
 
 DLG k
-You've picked up the water sigil.
-NAME water sigil dialog
+You've picked up the water orb.
+NAME water orb dialog
 
 DLG l
 """
@@ -1418,7 +1461,7 @@ NAME sign2 dialog
 
 DLG add_7
 The markings on the floor seem to lead to certain areas...
-NAME sign2 dialog
+NAME alert hint dialog
 
 DLG add_8
 """
@@ -1462,19 +1505,6 @@ Also, the guards seem to detect noise. Some quiet boots would come in handy..."
 """
 NAME notes dialog
 
-DLG e
-"""
-{
-  - {item "1"} >= 1 ?
-    {property locked false}
-    The key opens the door!
-  - else ?
-    {property locked true}
-    The door is locked...
-}
-"""
-NAME locked exit 3
-
 DLG add_fixf
 """
 It's the Earth Orb!
@@ -1484,9 +1514,13 @@ NAME item 3 dialog
 
 DLG ade
 """
-Have you heard of the tale of the three orbs?
-Legends say that if you find the earth, water, and fire orbs, you will be granted a wish.
-I'm too old to do anything about it... but you look spry and young. Good luck!
+{
+  - {item "oldAsk"} >= 1 ?
+    Please, save her! Find the orbs!
+  - else ?
+    Sir, please! Could you help me free my daughter? She's trapped in an impenetrable barrier... If you find the three elemental orbs, you should be able to free her!
+}
+{item "oldAsk" {{item "0"} + 1}}
 """
 NAME oldman dialog
 
@@ -1497,9 +1531,6 @@ NAME exit narration 14
 DLG adj
  Obtained key.
 NAME 3-key dialog
-
-DLG m
-NAME key dialog
 
 DLG adk
 """
@@ -1512,8 +1543,56 @@ DLG adk
 """
 NAME 3-chest dialog
 
+DLG adl
+I'm Princess Weenie!
+NAME Weenie dialog
+
+DLG adm
+You walk through the doorway
+NAME exit narration 15
+
+DLG adn
+"""
+{
+  - {item "1-earth orb"} == 1 ?
+    The wall shudders, and becomes translucent; you've passed the wall.
+    {property locked false}
+  - else ?
+    The wall pulses, and as you touch it, it feels rock solid; you'll need the earth orb to unlock this part.
+    {property locked true}
+}
+"""
+NAME earth exit
+
+DLG ado
+"""
+{
+  - {item "2-water orb"} == 1 ?
+    The wall shudders, and becomes translucent; you've passed the wall.
+    {property locked false}
+  - else ?
+    The wall pulses, and the surface feels wet; you need the water orb to get through.
+    {property locked true}
+}
+"""
+NAME water exit
+
+DLG adp
+"""
+{
+  - {item "0"} == 1 ?
+    ...
+  - else ?
+    The wall shudders, and becomes unbearably hot; you'll need the fire orb to get through this last phase.
+}
+"""
+NAME fire exit
+
 VAR sneak
 false
+
+VAR oldAsk
+0
 
 
 </script>
@@ -10442,6 +10521,7 @@ CHAR 255
 010010
 000000
 000000
+</script>
 </script>
 </script>
 </script>
