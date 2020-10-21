@@ -16,190 +16,526 @@ WIP
 ! ROOM_FORMAT 1
 
 PAL 0
+NAME water
+0,0,0
+3,71,221
+15,233,254
+
+PAL 1
+26,0,255
+255,0,193
+0,140,255
+
+PAL add_fix0
 NAME blueprint
 30,0,18
 129,3,222
 253,144,3
 
-PAL 1
+PAL add_fix1
+NAME fire
+204,8,8
+66,1,1
+255,193,3
+
+PAL add_1
 NAME earth
 2,156,32
 156,87,43
-2,205,48
+15,239,3
 
 ROOM 0
-0,0,0,0,0,0,0,0,d,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,d,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,d,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,add_d,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,add_d,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,add_d,0,0,add_fixa,0,0,0,0
+0,0,0,add_fixa,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-e,e,e,0,0,0,0,0,0,0,0,0,0,0,0,0
+e,e,e,0,0,0,0,add_fixa,0,0,add_fixa,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,e,e,e
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,add_fixa,0,0,0,0,0,0,add_fixa,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,e,e,0
+0,0,0,0,0,0,0,0,0,0,0,add_fixa,0,0,0,0
+0,0,0,0,add_fixa,0,0,0,0,0,0,0,0,e,e,e
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 NAME start room
 EXT 15,13 1 0,13
-EXT 0,5 2 15,5
-PAL 0
+EXT 15,7 add_fix4 0,7
+EXT 0,5 add_2 15,5
+EXT 8,0 2 13,13
+PAL add_fix0
 
 ROOM 1
-0,0,0,0,0,0,0,d,d,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,d,d,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,d,d,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,d,d,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,d,d,0,0,0,0,0,0,0
-0,0,0,0,0,0,a,f,h,a,0,0,0,0,0,0
-0,a,0,0,0,a,a,d,d,a,a,0,0,0,0,0
-a,0,0,0,a,a,0,d,d,0,a,0,0,0,0,0
-a,a,a,0,a,a,0,d,d,0,a,a,0,0,a,0
-0,0,0,a,a,0,0,d,d,0,0,0,a,0,0,a
-0,a,0,a,0,0,0,0,0,0,0,0,0,a,0,a
-a,0,a,0,0,0,0,0,0,0,0,0,0,a,a,a
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+adk,adk,adk,adk,adk,adk,adk,adk,adk,adk,adk,adk,adk,adk,adk,adk
+0,0,0,0,0,0,add_fixa,0,0,add_fixa,0,0,0,0,0,0
+0,add_fixa,0,0,0,add_fixa,add_fixa,0,0,add_fixa,add_fixa,0,0,0,0,0
+add_fixa,0,0,0,add_fixa,add_fixa,0,0,0,0,add_fixa,0,0,0,0,0
+add_fixa,add_fixa,add_fixa,0,add_fixa,add_fixa,adk,adk,adk,adk,add_fixa,add_fixa,0,0,add_fixa,0
+0,0,0,add_fixa,add_fixa,0,0,0,0,0,0,add_fixa,add_fixa,0,0,add_fixa
+0,add_fixa,0,add_fixa,add_fixa,0,0,0,0,0,0,add_fixa,add_fixa,add_fixa,0,add_fixa
+add_fixa,0,add_fixa,0,0,add_fixa,adk,adk,adk,adk,add_fixa,0,0,0,add_fixa,add_fixa
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 e,e,e,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 NAME ending 1-1
 EXT 0,13 0 15,13
-EXT 7,5 1 7,4 DLG 4
-EXT 8,5 1 8,4 DLG 4
-PAL 0
+EXT 7,5 1 7,3 DLG adp
+EXT 8,5 1 8,3 DLG adp
+EXT 6,12 1 6,10 DLG adn
+EXT 6,10 1 6,12
+EXT 7,12 1 7,10 DLG adn
+EXT 7,10 1 7,12
+EXT 8,12 1 8,10 DLG adn
+EXT 8,10 1 8,12
+EXT 9,12 1 9,10 DLG adn
+EXT 9,10 1 9,12
+EXT 6,9 1 6,7 DLG ado
+EXT 6,7 1 6,9
+EXT 7,9 1 7,7 DLG ado
+EXT 7,7 1 7,9
+EXT 8,9 1 8,7 DLG ado
+EXT 8,7 1 8,9
+EXT 9,9 1 9,7 DLG ado
+EXT 9,7 1 9,9
+PAL add_fix0
 
 ROOM 2
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,e,e
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-l,l,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-e,e,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-k,k,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-NAME level 1-1
-EXT 15,5 0 0,5
-EXT 2,10 3 9,15
-PAL 1
+0,i,0,j,j,j,j,0,0,0,0,i,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,l,0,0,0,0,u,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,f,0,h,0
+t,t,t,j,j,j,j,0,0,0,0,0,f,0,h,0
+t,0,t,j,j,j,j,0,0,0,0,0,f,adj,h,0
+q,p,r,j,j,j,j,0,0,0,0,0,0,0,0,0
+NAME level 2-1
+ITM 2 1,14
+EXT 11,0 3 11,15
+EXT 1,0 3 1,15
+EXT 13,13 0 8,0
+EXT 8,5 2 13,11 DLG a
+EXT 9,5 2 13,11 DLG a
+EXT 10,5 2 13,11 DLG a
+EXT 11,5 2 13,11 DLG a
+PAL 0
 
 ROOM 3
-0,0,0,0,0,0,0,n,d,n,0,0,0,0,0,0
-0,0,0,0,0,n,n,n,d,n,n,0,0,0,0,0
-0,0,0,0,n,n,0,0,d,0,n,n,0,0,0,0
-0,n,n,n,n,0,0,0,0,0,0,n,n,n,0,0
-n,0,0,0,0,0,0,0,0,d,0,n,0,n,n,0
-n,0,0,0,0,0,0,0,n,0,n,0,0,0,0,n
-n,n,0,n,n,n,0,0,n,0,n,0,0,n,0,n
-0,n,0,n,0,0,n,n,n,0,n,0,n,0,0,n
-0,n,0,n,0,e,0,0,0,0,n,0,n,0,0,n
-0,0,n,n,n,0,n,n,n,n,n,0,0,n,0,n
-0,0,0,n,0,d,0,0,0,0,n,0,0,n,0,n
-0,0,0,n,0,0,0,0,0,0,0,0,n,0,0,n
-0,0,0,0,n,0,0,0,0,0,0,n,0,0,n,0
-0,0,0,0,0,n,0,0,0,0,0,0,0,n,0,0
-0,0,0,0,0,n,0,0,0,0,0,n,n,n,0,0
-0,0,0,0,0,0,n,n,n,0,n,0,0,0,0,0
-NAME level 1-2
-ITM 3 9,2
-EXT 8,0 4 8,15
-EXT 9,15 2 2,10
-PAL 1
+0,i,0,j,j,j,j,0,0,0,0,i,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,k
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,l,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,k
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,i,0,j,j,j,j,0,0,0,0,i,0,0,0,0
+NAME level 2-2
+EXT 11,15 2 11,0
+EXT 12,12 2 13,13 DLG b
+EXT 11,12 2 13,13 DLG c
+EXT 14,12 2 13,13 DLG 9
+EXT 8,7 2 13,13 DLG g
+EXT 12,12 2 13,13
+EXT 13,12 2 13,13 DLG a
+EXT 12,3 2 13,13 DLG j
+EXT 9,7 2 13,13 DLG f
+EXT 11,7 2 13,13 DLG d
+EXT 10,7 2 13,13
+EXT 11,3 2 13,13 DLG 8
+EXT 14,3 2 13,13 DLG h
+EXT 13,3 2 13,13 DLG i
+EXT 11,0 4 11,15
+EXT 1,0 4 1,15
+EXT 1,15 2 1,0
+PAL 0
 
 ROOM 4
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,n,n,n,0,0,0,0,0,0,0,0
-n,n,n,n,n,n,0,n,n,n,n,n,n,n,n,n
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-n,n,n,0,0,0,0,0,0,n,n,n,n,0,n,n
-0,0,n,o,n,n,n,n,n,n,0,0,n,0,n,0
-0,n,n,o,n,n,n,n,0,n,0,0,n,0,n,0
-0,n,0,d,0,0,0,0,0,o,0,0,o,e,n,0
-0,n,n,n,n,n,n,n,0,n,0,0,n,0,n,0
-0,0,0,n,n,n,n,n,0,n,0,0,n,0,n,0
-0,0,0,n,0,0,0,0,0,n,0,0,n,0,n,0
-0,0,0,n,n,n,0,0,0,n,0,0,n,0,n,0
-0,0,0,0,0,0,n,n,0,n,n,n,n,0,n,0
-0,0,0,0,0,0,n,n,0,0,0,0,0,0,n,0
-0,0,0,0,0,0,0,n,0,n,n,n,n,n,n,0
-0,0,0,0,0,0,0,n,0,n,0,0,0,0,0,0
-NAME level 1-3
-EXT 8,15 3 8,0
-EXT 8,10 4 8,13 DLG b
-EXT 6,3 4 8,13 DLG b
-EXT 6,4 4 8,13 DLG b
-EXT 0,3 5 15,3
-PAL 1
+0,i,0,j,j,j,j,0,0,0,0,i,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,u,0,0,k
+0,0,0,j,j,j,j,0,0,l,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,k,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,l,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,l,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,k,l,0,u
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,k
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,i,0,j,j,j,j,0,0,0,0,i,0,0,0,0
+NAME level 2-3
+EXT 12,12 2 13,13 DLG b
+EXT 11,12 2 13,13 DLG c
+EXT 14,10 2 13,13 DLG 9
+EXT 8,7 2 13,13 DLG g
+EXT 12,12 2 13,13
+EXT 13,12 2 13,13 DLG a
+EXT 9,7 2 13,13 DLG f
+EXT 11,7 2 13,13 DLG a
+EXT 10,7 2 13,13 DLG a
+EXT 14,3 2 13,13 DLG h
+EXT 13,3 2 13,13 DLG i
+EXT 11,15 3 11,0
+EXT 11,0 5 11,15
+EXT 1,0 5 1,15
+EXT 1,15 3 1,0
+EXT 14,12 2 13,13 DLG a
+EXT 8,5 2 13,13 DLG 9
+EXT 10,9 2 13,13 DLG 9
+EXT 11,9 2 13,13 DLG 9
+EXT 12,9 2 13,13 DLG 9
+EXT 13,9 2 13,13 DLG 9
+EXT 8,10 2 13,13 DLG 9
+EXT 9,10 2 13,13 DLG 9
+EXT 10,10 2 13,13 DLG 9
+EXT 11,10 2 13,13 DLG 9
+EXT 9,5 2 13,13 DLG 9
+EXT 10,5 2 13,13 DLG 9
+EXT 10,4 2 13,13 DLG 9
+EXT 11,4 2 13,13 DLG 9
+EXT 12,4 2 13,13 DLG 9
+EXT 13,4 2 13,13 DLG 9
+EXT 11,5 2 13,13 DLG 9
+PAL 0
 
 ROOM 5
-0,0,0,0,n,n,n,n,n,0,0,0,0,0,0,0
-0,0,0,0,n,0,o,0,o,0,0,0,0,0,0,0
-n,n,n,n,n,0,o,n,o,n,n,n,n,n,n,n
-0,0,0,0,0,0,0,0,d,0,0,0,0,0,0,0
-n,0,n,n,n,n,o,0,n,n,n,n,n,n,n,n
-n,0,o,0,o,0,o,0,n,0,0,0,0,0,0,0
-n,0,n,n,n,n,n,n,n,n,0,0,0,0,0,0
-n,0,n,0,n,n,n,0,0,0,n,n,n,n,0,0
-n,0,n,0,0,0,0,0,0,0,n,n,0,n,n,0
-n,0,n,0,0,0,0,0,0,n,n,0,0,0,n,n
-n,0,n,n,n,o,n,n,n,n,0,0,0,0,0,n
-n,e,o,d,n,o,0,0,0,0,0,0,0,0,0,n
-n,0,n,o,n,d,0,0,0,0,0,0,0,0,0,n
-n,0,n,o,e,o,n,n,0,n,n,0,0,0,n,n
-n,0,n,n,n,n,n,n,n,n,0,n,n,n,n,0
-n,n,n,n,n,n,n,n,n,n,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,m,m,m,m,e,0,0,0,0,k,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,k
+0,0,0,j,j,j,j,0,0,l,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,l,0,0,u,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,add_d
+0,0,0,j,j,j,j,l,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,l,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,l,0,0,u,0,0
+0,0,0,j,j,j,j,0,0,0,0,k,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,k
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
+0,i,0,j,j,j,j,0,0,0,0,i,0,0,0,0
+NAME level 2-4
+ITM 1 15,9
+ITM 3 15,15
+ITM 3 7,11
+ITM 3 15,1
+ITM 3 7,0
+ITM 1 15,5
+ITM 3 7,6
+EXT 11,12 2 13,13 DLG c
+EXT 14,12 2 13,13 DLG 9
+EXT 8,7 2 13,13 DLG g
+EXT 12,12 2 13,13 DLG n
+EXT 13,12 2 13,13 DLG a
+EXT 11,7 2 13,13 DLG j
+EXT 9,7 2 13,13 DLG f
+EXT 10,7 2 13,13
+EXT 11,3 2 13,13 DLG 8
+EXT 14,3 2 13,13 DLG h
+EXT 13,3 2 13,13 DLG i
+EXT 11,15 4 11,0
+EXT 1,15 4 1,0
+EXT 6,1 5 5,1 DLG l
+EXT 5,1 5 6,1
+EXT 7,0 5 10,15 DLG d
+EXT 15,9 5 10,15 DLG d
+EXT 15,1 5 10,15 DLG d
+EXT 7,6 5 10,15 DLG d
+EXT 7,11 5 10,15 DLG d
+EXT 15,15 5 10,15 DLG d
+EXT 8,1 2 13,13 DLG 8
+EXT 10,4 2 13,13 DLG 8
+EXT 9,1 2 13,13 DLG 8
+EXT 10,1 2 13,13 DLG 8
+EXT 11,1 2 13,13 DLG 8
+EXT 11,9 2 13,13 DLG 8
+EXT 12,9 2 13,13 DLG 8
+EXT 7,10 2 13,13 DLG 8
+EXT 8,10 2 13,13 DLG 8
+EXT 9,10 2 13,13 DLG 8
+EXT 10,10 2 13,13 DLG 8
+EXT 8,8 2 13,13 DLG 8
+EXT 9,8 2 13,13 DLG 8
+EXT 10,8 2 13,13 DLG 8
+EXT 11,8 2 13,13 DLG 8
+EXT 12,3 2 13,13 DLG 8
+EXT 11,4 2 13,13 DLG 8
+EXT 12,4 2 13,13 DLG 8
+EXT 13,4 2 13,13 DLG 8
+EXT 12,5 2 13,13 DLG 8
+EXT 13,5 2 13,13 DLG 8
+PAL 0
+
+ROOM 6
+0,ade,0,o,0,0,0,ade,0,0,0,o,0,0,0,ade
+0,add_d,0,o,0,0,0,add_d,0,0,0,o,0,0,0,add_d
+0,add_d,0,o,adh,e,e,add_d,e,e,adg,o,add_d,e,e,add_d
+0,add_d,0,o,0,0,0,adf,0,0,0,o,adf,0,0,0
+0,add_d,0,o,o,o,o,o,o,o,o,o,o,o,o,o
+0,add_d,0,0,o,0,ade,0,o,0,0,0,0,0,0,0
+0,add_d,0,0,o,0,add_d,0,o,adh,e,e,e,e,e,adg
+o,o,o,o,o,0,add_d,0,o,0,0,0,0,0,0,0
+adi,adi,o,0,0,0,add_d,0,o,0,0,0,0,0,0,0
+adi,adi,o,0,0,0,add_d,0,o,o,o,o,o,o,o,o
+adi,adi,o,0,0,0,add_d,0,0,0,0,o,adi,adi,adi,adi
+o,o,o,0,e,e,add_d,0,0,0,0,o,adi,adi,adi,adi
+e,e,e,e,e,0,o,o,o,o,o,o,adi,adi,adi,adi
+e,e,e,e,e,0,o,adi,adi,adi,adi,o,o,o,o,o
+o,o,o,o,o,o,o,adi,adi,adi,adi,o,adi,adi,adi,adi
+adi,adi,adi,o,adi,adi,adi,adi,adi,adi,adi,o,adi,adi,adi,adi
+NAME level 3-3
+EXT 0,12 add_fix4 15,12
+EXT 0,13 add_fix4 15,13
+EXT 9,6 add_fix5 2,8
+EXT 15,6 7 13,11
+EXT 7,0 7 13,15
+EXT 4,2 add_fix5 15,12
+EXT 10,2 add_fix5 7,0
+EXT 1,0 add_fix5 11,0
+EXT 6,5 6 1,6
+EXT 12,3 7 4,3
+EXT 15,0 6 7,3
+EXT 7,3 6 15,0
+PAL add_fix1
+
+ROOM 7
+adi,adi,adi,adi,adi,o,adi,adi,adi,adi,o,adi,adi,adi,adi,adi
+adi,adi,adi,adi,adi,o,adi,adi,adi,adi,o,adi,adi,adi,adi,adi
+o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o
+e,e,e,e,adg,o,adi,adi,adi,adi,adi,o,adi,adi,adi,adi
+0,0,0,0,0,o,adi,adi,adi,adi,adi,o,adi,adi,adi,adi
+0,0,o,o,o,o,o,o,o,o,o,o,o,o,o,o
+0,0,o,0,0,0,0,0,ade,0,o,0,0,0,0,ade
+0,0,o,0,0,0,0,0,add_d,0,o,0,0,0,0,add_d
+o,o,o,o,o,o,o,0,add_d,0,o,adh,e,e,e,add_d
+0,0,0,0,0,0,o,0,add_d,0,o,0,0,0,0,0
+adh,e,e,e,e,adg,o,0,add_d,0,o,o,o,o,o,o
+0,0,0,0,0,0,o,0,add_d,0,o,0,0,ade,0,0
+o,o,o,o,o,o,o,o,add_d,add_d,o,0,0,add_d,0,0
+adi,adi,o,adi,adi,adi,adi,o,add_d,add_d,o,0,0,add_d,0,0
+adi,adi,o,adi,adi,adi,adi,o,add_d,add_d,o,0,0,add_d,0,0
+adi,adi,o,adi,adi,adi,adi,o,add_d,add_d,o,0,0,adf,0,0
+NAME level 3-4
+EXT 8,15 add_fix4 8,15
+EXT 9,15 add_fix4 9,15
+EXT 13,11 6 15,6
+EXT 13,15 6 7,0
+EXT 11,8 add_fix5 12,14
+EXT 15,6 add_fix5 7,15
+EXT 5,10 add_fix5 4,3
+EXT 0,10 add_fix5 15,3
+EXT 8,6 7 0,3
+EXT 4,3 6 12,3
+PAL add_fix1
+
+ROOM add_fix4
+o,o,o,o,o,o,o,o,o,add_d,add_d,o,o,o,o,o
+o,o,o,o,o,o,o,o,o,add_d,add_d,o,o,o,o,o
+o,o,o,o,o,o,o,o,o,add_d,add_d,o,o,o,o,o
+o,o,o,o,o,0,0,0,0,add_d,add_d,0,0,o,o,o
+o,o,o,o,o,0,0,0,0,add_d,add_d,0,0,o,o,o
+o,o,o,o,o,0,0,0,0,add_d,add_d,0,0,0,o,o
+o,o,o,o,o,0,0,0,0,add_d,add_d,0,0,0,o,o
+e,e,e,e,e,e,e,e,add_d,add_d,0,0,0,0,o,o
+o,o,o,o,o,0,0,0,add_d,add_d,0,0,0,0,o,o
+o,o,o,o,o,0,0,0,add_d,add_d,0,0,0,0,o,o
+o,0,0,0,0,0,0,0,add_d,add_d,0,0,0,0,o,o
+o,0,0,0,0,0,0,0,add_d,add_d,0,0,0,0,o,o
+o,0,0,0,0,0,0,0,add_d,add_d,e,e,e,e,e,e
+o,0,0,0,0,0,0,0,add_d,add_d,e,e,e,e,e,e
+o,o,o,o,o,o,o,o,add_d,add_d,o,o,o,o,o,o
+o,o,o,o,o,o,o,o,add_d,add_d,o,o,o,o,o,o
+NAME level 3-1
+EXT 15,13 6 0,13
+EXT 9,0 add_fix5 9,15
+EXT 10,0 add_fix5 10,15
+EXT 8,15 7 8,15
+EXT 9,15 7 9,15
+EXT 15,12 6 0,12
+EXT 0,7 0 15,7
+PAL add_fix1
+
+ROOM add_fix5
+adi,adi,adi,o,0,0,0,ade,0,0,o,ade,0,0,0,0
+adi,adi,adi,o,0,0,0,add_d,0,0,o,add_d,0,0,0,0
+o,o,o,o,0,0,0,add_d,0,0,o,add_d,0,0,0,0
+0,0,0,o,adh,e,e,add_d,0,0,o,add_d,e,e,e,adg
+e,e,add_d,o,o,o,o,o,o,o,o,o,0,0,0,0
+0,0,add_d,o,0,0,0,0,0,0,0,o,0,0,0,0
+0,0,add_d,o,ade,0,add_d,0,add_d,0,ade,o,o,o,o,o
+0,0,add_d,o,add_d,0,add_d,0,add_d,0,0,o,0,0,0,adm
+0,0,adf,o,add_d,0,add_d,0,add_d,0,0,o,0,0,0,0
+o,o,o,o,add_d,0,add_d,0,add_d,0,0,o,o,o,o,o
+adi,adi,adi,o,add_d,0,add_d,0,add_d,0,0,o,0,0,0,0
+adi,adi,adi,o,e,e,e,e,e,e,e,o,0,0,0,0
+o,o,o,o,o,o,o,o,o,add_d,add_d,o,add_d,e,e,adg
+0,0,0,0,0,0,0,0,o,add_d,add_d,o,add_d,0,0,0
+adh,e,e,e,e,e,e,add_d,o,add_d,add_d,o,adf,0,0,0
+0,0,0,0,0,0,0,adf,o,add_d,add_d,o,o,o,o,o
+NAME level 3-2
+ITM ade 3,13
+ITM adg 12,8
+EXT 9,15 add_fix4 9,0
+EXT 10,15 add_fix4 10,0
+EXT 2,8 6 9,6
+EXT 4,6 add_fix5 0,4
+EXT 15,12 6 4,2
+EXT 7,0 6 10,2
+EXT 12,14 7 11,8
+EXT 7,15 7 15,6
+EXT 4,3 7 5,10
+EXT 15,3 7 0,10
+EXT 11,0 6 1,0
+EXT 0,14 add_fix5 10,6
+EXT 15,7 0 7,12
+PAL add_fix1
+
+ROOM add_2
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,add_fixa,0,0,0,add_fixa,0,0,0
+0,0,0,add_fixa,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,add_fixa,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,add_e,add_e
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,add_fixa,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,add_fixa,0,0
+add_fixl,add_fixl,0,0,0,0,0,0,0,add_fixa,0,0,0,0,0,0
+add_e,add_e,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+add_fixk,add_fixk,0,0,0,0,0,0,0,0,0,0,add_fixa,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,add_fixa,0,0,0,0,0,0,0,add_fixa,0,0,0,0,0
+0,0,0,0,0,0,add_fixa,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME level 1-1
+EXT 1,12 add_3 9,15
+EXT 15,5 0 0,5
+PAL add_1
+
+ROOM add_3
+0,0,0,0,0,0,0,add_n,add_d,add_n,0,0,0,0,0,0
+0,0,0,0,0,add_n,add_n,add_n,add_d,add_n,add_n,0,0,0,0,0
+0,0,0,0,add_n,add_n,0,0,add_d,0,add_n,add_n,0,0,0,0
+0,add_n,add_n,add_n,add_n,0,0,0,0,0,0,add_n,add_n,add_n,0,0
+add_n,0,0,0,0,0,0,0,0,add_d,0,add_n,0,add_n,add_n,0
+add_n,0,0,0,0,0,0,0,add_n,0,add_n,0,0,0,0,add_n
+add_n,add_n,0,add_n,add_n,add_n,0,0,add_n,0,add_n,0,0,add_n,0,add_n
+0,add_n,0,add_n,0,0,add_n,add_n,add_n,0,add_n,0,add_n,0,0,add_n
+0,add_n,0,add_n,0,add_e,0,0,0,add_d,add_n,0,add_n,0,0,add_n
+0,0,add_n,add_n,add_n,0,add_n,add_n,add_n,add_o,add_n,0,0,add_n,0,add_n
+0,0,0,add_n,0,add_d,0,0,0,add_d,add_n,0,0,add_n,0,add_n
+0,0,0,add_n,0,0,0,0,0,0,0,0,add_n,0,0,add_n
+0,0,0,0,add_n,0,0,0,0,0,0,add_n,0,0,add_n,0
+0,0,0,0,0,add_n,0,0,0,0,0,0,0,add_n,0,0
+0,0,0,0,0,add_n,0,0,0,0,0,add_n,add_n,add_n,0,0
+0,0,0,0,0,0,add_n,add_n,add_n,0,add_n,0,0,0,0,0
+NAME level 1-2
+EXT 8,0 add_4 8,15
+EXT 9,15 add_2 1,12
+PAL add_1
+
+ROOM add_4
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,add_n,add_n,add_n,0,0,0,0,0,0,0,0
+add_n,add_n,add_n,add_n,add_n,add_n,0,add_n,add_n,add_n,add_n,add_n,add_n,add_n,add_n,add_n
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+add_n,add_n,add_n,0,0,0,0,0,0,add_n,add_n,add_n,add_n,0,add_n,add_n
+0,0,add_n,0,add_n,add_n,add_n,add_n,add_n,add_n,0,0,add_n,0,add_n,0
+0,add_n,add_n,0,add_n,add_n,add_n,add_n,0,add_n,0,0,add_n,0,add_n,0
+0,add_n,0,add_d,0,0,0,0,0,add_o,add_e,add_e,add_o,0,add_n,0
+0,add_n,add_n,add_n,add_n,add_n,add_n,add_n,0,add_n,0,0,add_n,0,add_n,0
+0,0,0,add_n,add_n,add_n,add_n,add_n,0,add_n,0,0,add_n,0,add_n,0
+0,0,0,add_n,0,0,0,0,0,add_n,0,0,add_n,0,add_n,0
+0,0,0,add_n,add_n,add_n,add_n,add_n,0,add_n,0,0,add_n,0,add_n,0
+0,0,0,0,0,0,add_n,add_n,0,add_n,add_n,add_n,add_n,0,add_n,0
+0,0,0,0,0,0,add_n,add_n,0,0,0,0,0,0,add_n,0
+0,0,0,0,0,0,0,add_n,0,add_n,add_n,add_n,add_n,add_n,add_n,0
+0,0,0,0,0,0,0,add_n,0,add_n,0,0,0,0,0,0
+NAME level 1-3
+EXT 8,15 add_3 8,0
+EXT 8,10 add_4 8,13 DLG add_b
+EXT 6,3 add_4 8,13 DLG add_b
+EXT 6,4 add_4 8,13 DLG add_b
+EXT 0,3 add_5 15,3
+EXT 7,10 add_4 8,13 DLG add_b
+EXT 6,10 add_4 8,13 DLG add_b
+PAL add_1
+
+ROOM add_5
+0,0,0,0,add_n,add_n,add_n,add_n,add_n,0,0,0,0,0,0,0
+0,0,0,0,add_n,0,add_o,0,add_o,0,0,0,0,0,0,0
+add_n,add_n,add_n,add_n,add_n,0,add_o,add_n,add_o,add_n,add_n,add_n,add_n,add_n,add_n,add_n
+0,0,0,0,0,0,0,0,add_d,0,0,0,0,0,0,0
+add_n,0,add_n,add_n,add_n,add_n,add_o,0,add_n,add_n,add_n,add_n,add_n,add_n,add_n,add_n
+add_n,0,add_n,0,add_o,0,add_o,0,add_n,0,0,0,0,0,0,0
+add_n,0,add_n,add_n,add_n,add_n,add_n,add_n,add_n,add_n,0,0,0,0,0,0
+add_n,0,add_n,0,add_n,add_n,add_n,0,0,0,add_n,add_n,add_n,add_n,0,0
+add_n,0,add_n,0,0,0,0,0,0,0,add_n,add_n,0,add_n,add_n,0
+add_n,0,add_n,0,0,0,0,0,0,add_n,add_n,0,0,0,add_n,add_n
+add_n,0,add_n,add_n,add_n,add_o,add_n,add_n,add_n,add_n,0,0,0,0,0,add_n
+add_n,add_e,add_o,add_d,add_n,add_o,0,0,0,0,0,0,0,0,0,add_n
+add_n,0,add_n,add_o,add_n,add_d,0,0,0,0,0,0,0,0,0,add_n
+add_n,0,add_n,add_e,add_o,add_o,add_n,add_n,0,add_n,add_n,0,0,0,add_n,add_n
+add_n,0,add_n,add_n,add_n,add_n,add_n,add_n,add_n,add_n,0,add_n,add_n,add_n,add_n,0
+add_n,add_n,add_n,add_n,add_n,add_n,add_n,add_n,add_n,add_n,0,0,0,0,0,0
 NAME level 1-4
-ITM 2 8,8
-ITM 3 12,11
-EXT 15,3 4 0,3
-EXT 7,3 5 9,3 DLG b
-EXT 5,3 5 9,3 DLG b
-EXT 8,11 5 7,11 DLG b
-EXT 8,12 5 7,12 DLG b
-PAL 1
+ITM add_fix3 12,11
+ITM add_fix2 5,9
+EXT 15,3 add_4 0,3
+EXT 7,3 add_5 9,3 DLG add_b
+EXT 5,3 add_5 9,3 DLG add_b
+EXT 8,11 add_5 7,11 DLG add_b
+EXT 8,12 add_5 7,12 DLG add_b
+EXT 3,5 add_5 1,5 DLG adf
+PAL add_1
 
 TIL a
 00000000
-00000000
-00000000
-00001000
-00101000
-00101110
-11000111
-10001101
+01101110
+01110000
+00011010
+00000110
+01011100
+01101000
+11100110
 NAME debris
 WAL true
 
-TIL d
-00000000
-00100100
-00100110
-01100010
-01000010
-00010010
-00110001
-00100000
-NAME grassLead
-
 TIL e
-00011000
-01110000
-00000110
-00111100
 00000000
-01100000
-00111100
+00000000
+01111100
+00000000
+11111110
+00000000
+01111100
 00000000
 NAME grassLead2
 
@@ -228,6 +564,189 @@ NAME gate2
 WAL true
 
 TIL i
+11111110
+10000010
+10000010
+10000010
+10100010
+10000010
+10000010
+10000010
+NAME 2-door
+
+TIL j
+11011010
+10010001
+10011000
+11000100
+01000100
+01001101
+11011001
+10010010
+>
+00100101
+01001000
+01001100
+10100101
+10100101
+10100100
+01001100
+11010001
+NAME 2-water
+WAL true
+
+TIL k
+00000000
+00111000
+00111110
+00111000
+11111100
+00111010
+00101000
+00101000
+>
+00000000
+00111100
+00111011
+00111000
+11111100
+00111010
+00101000
+00101000
+NAME 2-rightguard
+WAL true
+
+TIL l
+00000000
+00011100
+01111100
+00011100
+00111111
+01011100
+00010100
+00010100
+>
+00000000
+00111100
+11011100
+00011100
+00111111
+01011100
+00010100
+00010100
+NAME 2-leftguard
+WAL true
+
+TIL m
+10101010
+11111111
+00000000
+11111111
+11111111
+00000000
+11111111
+10101010
+NAME bridge
+
+TIL p
+00000000
+00000000
+11111111
+00000000
+11111111
+00000000
+11111111
+11111111
+NAME 2-sigil3
+WAL true
+
+TIL q
+00000000
+00000000
+00000001
+00000011
+00000110
+00001100
+00011001
+00110011
+NAME 2-sigil1
+WAL true
+
+TIL r
+00000000
+00000000
+10000000
+11000000
+01100000
+00110000
+10011000
+11001100
+NAME 2-sigil2
+
+TIL s
+00000000
+01010001
+00000100
+00010000
+01000100
+00010010
+00000000
+10010010
+>
+00000000
+00100101
+00000000
+10000100
+00010001
+00000000
+01000100
+00000000
+NAME 2-sparkle
+
+TIL t
+01000001
+00000000
+00000000
+00001000
+01000001
+00000000
+00001000
+01000000
+>
+00000000
+00001000
+01000001
+00000000
+00001000
+01000000
+00000010
+00100000
+NAME sparkle2
+
+TIL u
+00011000
+00111100
+01100110
+01000010
+10000001
+10001001
+10100101
+10110101
+NAME 2-rock
+
+TIL add_fixa
+00000000
+00000000
+00000000
+00001000
+00101000
+00101110
+11000111
+10001101
+NAME debris
+WAL true
+
+TIL add_fixi
 10000000
 10000000
 10000000
@@ -239,7 +758,7 @@ TIL i
 NAME wallLeft
 WAL true
 
-TIL j
+TIL add_fixj
 00000001
 00000001
 00000001
@@ -251,7 +770,7 @@ TIL j
 NAME wallRight
 WAL true
 
-TIL k
+TIL add_fixk
 11111111
 00000000
 00000000
@@ -263,7 +782,7 @@ TIL k
 NAME wallTop
 WAL true
 
-TIL l
+TIL add_fixl
 00000000
 00000000
 00000000
@@ -275,7 +794,42 @@ TIL l
 NAME wallBottom
 WAL true
 
-TIL n
+TIL o
+11111111
+11110011
+10111111
+10110101
+11110101
+10011111
+11110011
+11111111
+NAME 3-magmablock
+WAL true
+
+TIL add_d
+00000000
+00010000
+01010100
+01010100
+01010100
+01010100
+01000100
+00000000
+NAME grassLead
+
+TIL add_e
+00000000
+01110000
+00000110
+00111100
+00000000
+01100000
+00111100
+00000000
+NAME grassLead2
+WAL false
+
+TIL add_n
 00000000
 00000000
 00000000
@@ -287,7 +841,7 @@ TIL n
 NAME tree
 WAL true
 
-TIL o
+TIL add_o
 00000000
 00000000
 00000000
@@ -297,9 +851,8 @@ TIL o
 11000110
 10001101
 NAME fakeTree
-WAL false
 
-TIL p
+TIL add_p
 00111100
 01100110
 10000001
@@ -308,7 +861,118 @@ TIL p
 00010100
 00110110
 00110110
+
+TIL ade
+00000000
+00111100
+01111110
+11111111
+11111111
+11100111
+11000011
+11000011
+NAME 3-cave-up
 WAL false
+
+TIL adf
+11000011
+11000011
+11100111
+11111111
+11111111
+01111110
+00111100
+00000000
+NAME 3-cave-down
+WAL false
+
+TIL adg
+11111000
+11111100
+00111110
+00011110
+00011110
+00111110
+11111100
+11111000
+NAME 3-cave-left
+WAL false
+
+TIL adh
+00011111
+00111111
+01111100
+01111000
+01111000
+01111100
+00111111
+00011111
+NAME 3-cave-right
+WAL false
+
+TIL adi
+01000110
+01001100
+01110000
+10010000
+11111111
+01010001
+11011110
+10000011
+>
+00110001
+00011011
+11111110
+00010100
+00110010
+11111011
+10001000
+00000100
+NAME 3-lava
+
+TIL adj
+00000000
+01010101
+10101010
+11111111
+00000000
+11111111
+01010101
+01010101
+NAME gateMid
+WAL true
+
+TIL adk
+10101010
+01010101
+10101010
+01010101
+10101010
+01010101
+10101010
+01010101
+>
+01010101
+10101010
+01010101
+10101010
+01010101
+10101010
+01010101
+10101010
+NAME magicWall
+WAL true
+
+TIL adm
+11111111
+00000001
+00100001
+00000001
+00000001
+00000001
+00000001
+11111111
+NAME 3-door right
 
 SPR A
 00000000
@@ -328,9 +992,46 @@ SPR A
 00011100
 00111100
 00010100
-POS 0 9,13
+POS 0 10,13
 
-SPR a
+SPR d
+00001000
+00011000
+00000011
+10011010
+10100000
+00000011
+00010001
+00011000
+NAME deadbody2
+
+SPR add_fixb
+11111111
+10000001
+10111101
+10000001
+11111111
+00011000
+00011000
+00011000
+NAME 3-sign
+DLG add_fix7
+POS add_fix5 6,5
+
+SPR g
+11111111
+10000001
+10000001
+10000001
+10000001
+10100001
+10000001
+10000001
+NAME 3-door-up
+DLG adk
+POS add_fix5 8,5
+
+SPR add_a
 00011111
 00010001
 00010101
@@ -341,7 +1042,7 @@ SPR a
 00011111
 NAME sign
 
-SPR b
+SPR add_b
 00011000
 00011000
 00011000
@@ -359,22 +1060,11 @@ SPR b
 00000000
 00000000
 00000000
-NAME sign2
-DLG 7
-POS 3 9,2
+NAME alertHint
+DLG add_7
+POS add_3 8,10
 
-SPR d
-00001000
-00011000
-00000011
-10011010
-10000000
-00000011
-00010001
-00011000
-NAME deadbody
-
-SPR e
+SPR add_e
 11111000
 10001000
 10101000
@@ -384,10 +1074,10 @@ SPR e
 10001000
 11111000
 NAME sign3
-DLG 8
-POS 2 2,11
+DLG add_8
+POS add_2 2,11
 
-SPR f
+SPR add_f
 00000000
 00011100
 00011000
@@ -406,22 +1096,31 @@ SPR f
 00111100
 00100100
 NAME NPC1
-DLG 9
-POS 2 1,10
+DLG add_9
+POS add_2 1,10
 
-SPR g
+SPR add_g
 00000000
 00111100
 00100100
 01100110
+00111100
+00011000
+00111100
+01000010
+>
+00000000
+00111100
+00111100
+01111110
 00111100
 00011000
 00111100
 01000010
 NAME Guard1
-POS 4 4,10
+POS add_4 4,10
 
-SPR h
+SPR add_h
 00000000
 00111100
 00100100
@@ -430,8 +1129,17 @@ SPR h
 00011000
 00111100
 01000010
+>
+00000000
+00111100
+00111100
+01111110
+00111100
+00011000
+00111100
+01000010
 NAME Guard2
-POS 4 6,2
+POS add_4 6,2
 
 SPR j
 00000000
@@ -442,9 +1150,9 @@ SPR j
 00011100
 00000000
 00000000
-NAME notes
-DLG c
-POS 4 15,3
+NAME note
+DLG add_fixc
+POS add_4 15,3
 
 SPR k
 00000000
@@ -455,8 +1163,17 @@ SPR k
 00011000
 00111100
 01000010
+>
+00000000
+00111100
+00111100
+01111110
+00111100
+00011000
+00111100
+01000010
 NAME Guard3
-POS 5 5,1
+POS add_5 5,1
 
 SPR l
 00000000
@@ -467,8 +1184,17 @@ SPR l
 00011000
 00111100
 01000010
+>
+00000000
+00111100
+00111100
+01111110
+00111100
+00011000
+00111100
+01000010
 NAME Guard4
-POS 5 7,5
+POS add_5 7,5
 
 SPR n
 00000000
@@ -479,28 +1205,91 @@ SPR n
 00011000
 00111100
 01000010
+>
+00000000
+00111100
+00111100
+01111110
+00111100
+00011000
+00111100
+01000010
 NAME Guard5
-POS 5 8,13
+POS add_5 8,13
 
-SPR o
+SPR ade
 00000000
 00000000
 00000000
+00001110
+10111010
+00101010
+00111110
+00001010
+>
 00000000
 00000000
 00000000
-00000000
-00000000
+01001110
+00111010
+00101010
+00111110
+00001010
+NAME oldman
+DLG ade
+POS 0 12,12
 
-SPR p
+SPR adf
 00000000
+00111100
+00100100
+01100110
+00111100
+00011000
+00111100
+01000010
+>
 00000000
-00000000
-00000000
-00000000
-00000000
-00000000
-00000000
+00111100
+00111100
+01111110
+00111100
+00011000
+00111100
+01000010
+NAME Guard6
+
+SPR adi
+00011000
+01100110
+00111100
+00100100
+01100110
+10100101
+00100100
+00011000
+>
+00011000
+01100110
+00111100
+10100101
+01100110
+00100100
+00100100
+00011000
+NAME Weenie
+DLG adl
+POS 1 8,2
+
+SPR adj
+11111111
+10000001
+10000001
+10000001
+10000001
+10100001
+10000001
+10000001
 
 ITM 1
 00000000
@@ -511,9 +1300,42 @@ ITM 1
 00011000
 00010000
 00011000
-NAME key
+NAME 2-key
 
 ITM 2
+00000000
+00001000
+00011000
+00111100
+01110110
+01100110
+01100110
+00111100
+NAME 2-water orb
+
+ITM 3
+00000000
+00111100
+00100100
+00111100
+00010000
+00011000
+00010000
+00011000
+NAME 2-fake key
+
+ITM add_fix1
+00000000
+00111100
+00100100
+00111100
+00010000
+00011000
+00010000
+00011000
+NAME key
+
+ITM add_fix2
 00000000
 00000000
 00000000
@@ -523,9 +1345,9 @@ ITM 2
 01111110
 01111110
 NAME sneak
-DLG d
+DLG add_fixd
 
-ITM 3
+ITM add_fix3
 00011000
 00100100
 01100110
@@ -543,26 +1365,41 @@ ITM 3
 01100110
 00100100
 00011000
-DLG f
+NAME 1-earth orb
+DLG add_fixf
 
-DLG 3
- 
+ITM ade
+00000000
+00111100
+00100100
+00111100
+00010000
+00011000
+00010000
+00011000
+NAME 3-key
+DLG adj
 
-DLG 4
-"""
-{
-  - {item "0"} >= 1 ?
-    {property locked false}
-    The gate creaks open...
-    It snaps shut behind you.
-    The only way is forward.
-  - else ?
-    {property locked true}
-    The gate is locked.
-
-}
-"""
-NAME locked exit 1
+ITM adg
+00000000
+00000000
+00000000
+01010100
+00100100
+01010010
+01010100
+00111000
+>
+10001001
+00100011
+11010100
+01111001
+10101101
+10111010
+01111110
+00111100
+NAME 3-fire-orb
+DLG adq
 
 DLG 5
 """
@@ -577,57 +1414,55 @@ DLG 5
 """
 NAME locked exit 2
 
-DLG 7
-These trails always seem to lead somewhere...
-NAME sign2 dialog
-
 DLG 8
-"""
-"Guards posted inside
-Do NOT trespass"
-"""
-NAME sign3 dialog
+Hey trespasser, you're not allowed here!
+NAME exit narration 1
 
 DLG 9
-"""
-{
-  - {item "orb1"} == 0 ?
-    These guards are way too alert for me to sneak in...
-    Oh? You're trying to get in? Good luck.(exit "level 1-2,9,14")
-  - else ?
-    Wow! You actually got past them!
+Hey trespasser, you're not allowed here!
+NAME exit narration 2
 
-}
-"""
-NAME NPC1 dialog
+DLG a
+Hey trespasser, you're not allowed here!
+NAME exit narration 3
 
 DLG b
-"""
-{
-  - {item "sneak"} == 0 ?
-    {property locked false}
-    The guard catches you! You're sent back to the start.
-  - else ?
-    {property locked true}
-    You successfully sneak past the guard!
-}
-"""
-NAME pass guard
+Hey trespasser, you're not allowed here!
+NAME exit narration 4
 
 DLG c
-"""
-It's a note.
-It says,
-"Look around for fake walls... or in this case, trees.
-Also, the guards seem to detect heat."
-"""
-NAME notes dialog
+Hey trespasser, you're not allowed here!
+NAME exit narration 5
 
 DLG d
-You find some giant boots. When you put them on, you feel a lot colder.
-NAME sneak dialog
+You've triggered the trap of the fake key!
+NAME exit narration 6
 
-DLG e
+DLG f
+Hey trespasser, you're not allowed here!
+NAME exit narration 8
+
+DLG g
+Hey trespasser, you're not allowed here!
+NAME exit narration 9
+
+DLG h
+Hey trespasser, you're not allowed here!
+NAME exit narration 10
+
+DLG i
+Hey trespasser, you're not allowed here!
+NAME exit narration 11
+
+DLG j
+Hey trespasser, you're not allowed here!
+NAME exit narration 12
+
+DLG k
+You've picked up the water orb.
+NAME water orb dialog
+
+DLG l
 """
 {
   - {item "1"} >= 1 ?
@@ -640,15 +1475,154 @@ DLG e
 """
 NAME locked exit 3
 
-DLG f
+DLG n
+Hey trespasser, you're not allowed here!
+NAME exit narration 13
+
+DLG add_fix7
+Find the key to unlock the door and get the Fire Orb.
+NAME sign2 dialog
+
+DLG add_7
+The lines on the floor seem to mark something...
+NAME alert hint dialog
+
+DLG add_8
+"""
+"Guards posted inside
+Do NOT trespass"
+"""
+NAME sign3 dialog
+
+DLG add_9
+"""
+{
+  - {item "orb1"} == 0 ?
+    These guards are way too alert for me to sneak in...
+    Oh? You're trying to get in? Good luck. (exit "level 1-2,9,14")
+  - else ?
+    Wow! You actually got past them!
+
+}
+"""
+NAME NPC1 dialog
+
+DLG add_b
+"""
+{
+  - {item "sneak"} == 0 ?
+    {property locked false}
+    The guard catches you! You're sent back to the start.
+  - else ?
+    {property locked true}
+    You successfully sneak past the guard!
+}
+"""
+NAME pass guard
+
+DLG add_fixc
+"""
+It's a note.
+It says,
+"Look around for fake trees... unfortunately, they all look the same, but there might be another clue that'll help you find them.
+Also, the guards seem to detect noise. Some quiet boots would come in handy..."
+"""
+NAME notes dialog
+
+DLG add_fixf
 """
 It's the Earth Orb!
 You pick it up.
 """
 NAME item 3 dialog
 
+DLG ade
+"""
+{
+  - {item "oldAsk"} >= 1 ?
+    Please, save her! Find the orbs!
+  - else ?
+    Sir, please! Could you help me free my daughter? She's trapped in an impenetrable barrier... If you find the three elemental orbs, you should be able to free her!
+}
+{item "oldAsk" {{item "0"} + 1}}
+"""
+NAME oldman dialog
+
+DLG adf
+As you pass the fake tree, it morphs into a real tree. Looks like you can't go back this way.
+NAME exit narration 14
+
+DLG adk
+"""
+{
+  - {item "3-key"} == 1 ?
+    The door is unlocked.
+    {exit "add_fix5" 15 7 "tunnel"}
+  - else ?
+    The door is locked. You need a key to open the door.
+}
+"""
+NAME 3-door dialog
+
+DLG adl
+"""
+I'm Princess Weenie! 
+You've saved me!
+{end}
+You win!
+"""
+NAME Weenie dialog
+
+DLG adm
+You walk through the doorway
+NAME exit narration 15
+
+DLG adn
+"""
+{
+  - {item "1-earth orb"} == 1 ?
+    The wall shudders, and becomes translucent; you've passed the wall.
+    {property locked false}
+  - else ?
+    The wall pulses, and as you touch it, it feels rock solid; you'll need the earth orb to unlock this part.
+    {property locked true}
+}
+"""
+NAME earth exit
+
+DLG ado
+"""
+{
+  - {item "2-water orb"} == 1 ?
+    The wall shudders, and becomes translucent; you've passed the wall.
+    {property locked false}
+  - else ?
+    The wall pulses, and turns translucent - however, it's still solid (and wet); you need the water orb to get through.
+    {property locked true}
+}
+"""
+NAME water exit
+
+DLG adp
+"""
+{
+  - {item "3-fire-orb"} == 1 ?
+    The wall shudders, and becomes translucent; you've passed the wall.
+  - else ?
+    The wall crackles, and becomes unbearably hot; you'll need the fire orb to get through this last phase.
+}
+"""
+NAME fire exit
+
+DLG adq
+You have obtained the Fire Orb.
+NAME 3-fire-orb dialog
+
 VAR sneak
 false
+
+VAR oldAsk
+0
 
 
 </script>
@@ -7282,285 +8256,6 @@ CHAR 0
 000000
 000000
 000000
-CHAR 1
-001110
-010001
-011011
-010001
-010101
-010001
-001110
-000000
-CHAR 2
-001110
-011111
-010101
-011111
-010001
-011111
-001110
-000000
-CHAR 3
-000000
-001010
-011111
-011111
-011111
-001110
-000100
-000000
-CHAR 4
-000000
-000000
-001010
-001110
-001110
-000100
-000000
-000000
-CHAR 5
-000100
-001110
-001110
-000100
-011111
-011111
-000100
-000000
-CHAR 6
-000000
-000100
-001110
-011111
-011111
-000100
-001110
-000000
-CHAR 7
-000000
-000000
-000000
-001100
-001100
-000000
-000000
-000000
-CHAR 8
-111111
-111111
-111111
-110011
-110011
-111111
-111111
-111111
-CHAR 9
-000000
-000000
-011110
-010010
-010010
-011110
-000000
-000000
-CHAR 10
-111111
-111111
-100001
-101101
-101101
-100001
-111111
-111111
-CHAR 11
-000000
-000111
-000011
-001101
-010010
-010010
-001100
-000000
-CHAR 12
-001110
-010001
-010001
-001110
-000100
-001110
-000100
-000000
-CHAR 13
-000100
-000110
-000101
-000100
-001100
-011100
-011000
-000000
-CHAR 14
-000011
-001101
-001011
-001101
-001011
-011011
-011000
-000000
-CHAR 15
-000000
-010101
-001110
-011011
-001110
-010101
-000000
-000000
-CHAR 16
-001000
-001100
-001110
-001111
-001110
-001100
-001000
-000000
-CHAR 17
-000010
-000110
-001110
-011110
-001110
-000110
-000010
-000000
-CHAR 18
-000100
-001110
-011111
-000100
-011111
-001110
-000100
-000000
-CHAR 19
-001010
-001010
-001010
-001010
-001010
-000000
-001010
-000000
-CHAR 20
-001111
-010101
-010101
-001101
-000101
-000101
-000101
-000000
-CHAR 21
-001110
-010001
-001100
-001010
-000110
-010001
-001110
-000000
-CHAR 22
-000000
-000000
-000000
-000000
-000000
-011110
-011110
-000000
-CHAR 23
-000100
-001110
-011111
-000100
-011111
-001110
-000100
-001110
-CHAR 24
-000100
-001110
-011111
-000100
-000100
-000100
-000100
-000000
-CHAR 25
-000100
-000100
-000100
-000100
-011111
-001110
-000100
-000000
-CHAR 26
-000000
-000100
-000110
-011111
-000110
-000100
-000000
-000000
-CHAR 27
-000000
-000100
-001100
-011111
-001100
-000100
-000000
-000000
-CHAR 28
-000000
-000000
-000000
-010000
-010000
-010000
-011111
-000000
-CHAR 29
-000000
-001010
-001010
-011111
-001010
-001010
-000000
-000000
-CHAR 30
-000100
-000100
-001110
-001110
-011111
-011111
-000000
-000000
-CHAR 31
-011111
-011111
-001110
-001110
-000100
-000100
-000000
-000000
 CHAR 32
 000000
 000000
@@ -8408,500 +9103,104 @@ CHAR 125
 001100
 000000
 CHAR 126
+000000
+000000
+000000
 001010
 010100
 000000
 000000
 000000
-000000
-000000
-000000
-CHAR 127
-000100
-001110
-011011
-010001
-010001
-011111
-000000
-000000
-CHAR 128
-001110
-010001
-010000
-010000
-010001
-001110
-000100
-001100
-CHAR 129
-010010
-000000
-010010
-010010
-010010
-010110
-001010
-000000
-CHAR 130
-000011
-000000
-001110
-010001
-011110
-010000
-001110
-000000
-CHAR 131
-001110
-000000
-001110
-000001
-001111
-010001
-001111
-000000
-CHAR 132
-001010
-000000
-001110
-000001
-001111
-010001
-001111
-000000
-CHAR 133
-001100
-000000
-001110
-000001
-001111
-010001
-001111
-000000
-CHAR 134
-001110
-001010
-001110
-000001
-001111
-010001
-001111
-000000
-CHAR 135
-000000
-001110
-010001
-010000
-010001
-001110
-000100
-001100
-CHAR 136
-001110
-000000
-001110
-010001
-011110
-010000
-001110
-000000
-CHAR 137
-001010
-000000
-001110
-010001
-011110
-010000
-001110
-000000
-CHAR 138
-001100
-000000
-001110
-010001
-011110
-010000
-001110
-000000
-CHAR 139
-001010
-000000
-000100
-000100
-000100
-000100
-000110
-000000
-CHAR 140
-000100
-001010
-000000
-000100
-000100
-000100
-000110
-000000
-CHAR 141
-001000
-000000
-000100
-000100
-000100
-000100
-000110
-000000
-CHAR 142
-001010
-000000
-000100
-001010
-010001
-011111
-010001
-000000
-CHAR 143
-001110
-001010
-001110
-011011
-010001
-011111
-010001
-000000
-CHAR 144
-000011
-000000
-011111
-010000
-011110
-010000
-011111
-000000
-CHAR 145
-000000
-000000
-011110
-000101
-011111
-010100
-001111
-000000
-CHAR 146
-001111
-010100
-010100
-011111
-010100
-010100
-010111
-000000
-CHAR 147
-001110
-000000
-001100
-010010
-010010
-010010
-001100
-000000
-CHAR 148
-001010
-000000
-001100
-010010
-010010
-010010
-001100
-000000
-CHAR 149
-011000
-000000
-001100
-010010
-010010
-010010
-001100
-000000
-CHAR 150
-001110
-000000
-010010
-010010
-010010
-010110
-001010
-000000
-CHAR 151
-011000
-000000
-010010
-010010
-010010
-010110
-001010
-000000
-CHAR 152
-001010
-000000
-010010
-010010
-010010
-001110
-000100
-011000
-CHAR 153
-010010
-001100
-010010
-010010
-010010
-010010
-001100
-000000
-CHAR 154
-001010
-000000
-010010
-010010
-010010
-010010
-001100
-000000
-CHAR 155
-000000
-000100
-001110
-010000
-010000
-001110
-000100
-000000
-CHAR 156
-000110
-001001
-001000
-011110
-001000
-001001
-010111
-000000
-CHAR 157
-010001
-001010
-000100
-011111
-000100
-011111
-000100
-000000
-CHAR 158
-011000
-010100
-010100
-011010
-010111
-010010
-010010
-000000
-CHAR 159
-000010
-000101
-000100
-001110
-000100
-000100
-010100
-001000
 CHAR 160
-000110
 000000
-001110
-000001
-001111
-010001
-001111
+000000
+000000
+000000
+000000
+000000
+000000
 000000
 CHAR 161
-000110
+000100
 000000
 000100
 000100
+001110
+001110
 000100
-000100
-000110
 000000
 CHAR 162
-000110
 000000
-001100
-010010
-010010
-010010
-001100
+000100
+001110
+010000
+010000
+001110
+000100
 000000
 CHAR 163
 000110
-000000
-010010
-010010
-010010
-010110
-001010
-000000
-CHAR 164
-001010
-010100
-000000
-011100
-010010
-010010
-010010
+001001
+001000
+011110
+001000
+001001
+010111
 000000
 CHAR 165
-001010
-010100
-000000
-010010
-011010
-010110
-010010
-000000
-CHAR 166
-001110
-000001
-001111
 010001
-001111
-000000
-001111
+001010
+000100
+011111
+000100
+011111
+000100
 000000
 CHAR 167
+001110
+010001
 001100
-010010
-010010
-010010
-001100
-000000
-011110
-000000
-CHAR 168
-000100
-000000
-000100
-001100
-010000
+001010
+000110
 010001
 001110
-000000
-CHAR 169
-000000
-000000
-011111
-010000
-010000
-010000
-000000
-000000
-CHAR 170
-000000
-000000
-111111
-000001
-000001
-000000
-000000
 000000
 CHAR 171
-010000
+000000
+000000
+001001
 010010
-010100
-001110
-010001
-000010
-000111
+001001
+000000
+000000
 000000
 CHAR 172
-010000
-010010
-010100
-001011
-010101
-000111
+000000
+000000
+111111
+000001
 000001
 000000
-CHAR 173
-000100
 000000
-000100
-000100
-001110
-001110
-000100
-000000
-CHAR 174
-000000
-000000
-001001
-010010
-001001
-000000
-000000
-000000
-CHAR 175
-000000
-000000
-010010
-001001
-010010
-000000
-000000
-000000
-CHAR 176
-010101
-000000
-101010
-000000
-010101
-000000
-101010
 000000
 CHAR 177
-010101
-101010
-010101
-101010
-010101
-101010
-010101
-101010
+000000
+000100
+001110
+000100
+000000
+001110
+000000
+000000
 CHAR 178
-101010
-111111
-010101
-111111
-101010
-111111
-010101
-111111
-CHAR 179
+011000
 000100
-000100
-000100
-000100
-000100
-000100
-000100
-000100
-CHAR 180
-000100
-000100
-000100
-111100
-000100
-000100
-000100
-000100
+001000
+011100
+000000
+000000
+000000
+000000
 CHAR 181
 000000
 000000
@@ -8912,418 +9211,157 @@ CHAR 181
 010000
 010000
 CHAR 182
-010100
-010100
-010100
-110100
-010100
-010100
-010100
-010100
-CHAR 183
+001111
+010101
+010101
+001101
+000101
+000101
+000101
 000000
-000000
-000000
-111100
-010100
-010100
-010100
-010100
-CHAR 184
-000000
-111100
-000100
-111100
-000100
-000100
-000100
-000100
-CHAR 185
-010100
-110100
-000100
-110100
-010100
-010100
-010100
-010100
-CHAR 186
-010100
-010100
-010100
-010100
-010100
-010100
-010100
-010100
 CHAR 187
 000000
-111100
-000100
-110100
-010100
-010100
-010100
-010100
+000000
+010010
+001001
+010010
+000000
+000000
+000000
 CHAR 188
+010000
+010010
 010100
-110100
-000100
-111100
-000000
-000000
-000000
+001011
+010101
+000111
+000001
 000000
 CHAR 189
+010000
+010010
 010100
-010100
-010100
-111100
-000000
-000000
-000000
-000000
-CHAR 190
-000100
-111100
-000100
-111100
-000000
-000000
-000000
+001110
+010001
+000010
+000111
 000000
 CHAR 191
+000100
 000000
+000100
+001100
+010000
+010001
+001110
 000000
-000000
-111100
-000100
-000100
-000100
-000100
-CHAR 192
-000100
-000100
-000100
-000111
-000000
-000000
-000000
-000000
-CHAR 193
-000100
-000100
-000100
-111111
-000000
-000000
-000000
-000000
-CHAR 194
-000000
-000000
-000000
-111111
-000100
-000100
-000100
-000100
-CHAR 195
-000100
-000100
-000100
-000111
-000100
-000100
-000100
-000100
 CHAR 196
+001010
 000000
-000000
-000000
-111111
-000000
-000000
-000000
+000100
+001010
+010001
+011111
+010001
 000000
 CHAR 197
-000100
-000100
-000100
-111111
-000100
-000100
-000100
-000100
+001110
+001010
+001110
+011011
+010001
+011111
+010001
+000000
 CHAR 198
-000100
-000111
-000100
-000111
-000100
-000100
-000100
-000100
+001111
+010100
+010100
+011111
+010100
+010100
+010111
+000000
 CHAR 199
-010100
-010100
-010100
-010111
-010100
-010100
-010100
-010100
-CHAR 200
-010100
-010111
+001110
+010001
 010000
-011111
-000000
-000000
-000000
-000000
-CHAR 201
-000000
-011111
 010000
-010111
-010100
-010100
-010100
-010100
-CHAR 202
-010100
-110111
-000000
-111111
-000000
-000000
-000000
-000000
-CHAR 203
-000000
-111111
-000000
-110111
-010100
-010100
-010100
-010100
-CHAR 204
-010100
-010111
-010000
-010111
-010100
-010100
-010100
-010100
-CHAR 205
-000000
-111111
-000000
-111111
-000000
-000000
-000000
-000000
-CHAR 206
-010100
-110111
-000000
-110111
-010100
-010100
-010100
-010100
-CHAR 207
+010001
+001110
 000100
-111111
+001100
+CHAR 201
+000011
 000000
-111111
-000000
-000000
-000000
-000000
-CHAR 208
-010100
-010100
-010100
-111111
-000000
-000000
-000000
+011111
+010000
+011110
+010000
+011111
 000000
 CHAR 209
-000000
-111111
-000000
-111111
-000100
-000100
-000100
-000100
-CHAR 210
-000000
-000000
-000000
-111111
+001010
 010100
-010100
-010100
-010100
-CHAR 211
-010100
-010100
-010100
-011111
 000000
+010010
+011010
+010110
+010010
 000000
-000000
-000000
-CHAR 212
-000000
-000000
-000000
-000000
-000000
-000000
-000000
-111111
-CHAR 213
-000000
-000000
-000000
-000000
-000000
-000000
-111111
-111111
 CHAR 214
+010010
+001100
+010010
+010010
+010010
+010010
+001100
 000000
-000000
-000000
-000000
-000000
-111111
-111111
-111111
-CHAR 215
-000000
-000000
-000000
-000000
-111111
-111111
-111111
-111111
-CHAR 216
-000000
-000000
-000000
-111111
-111111
-111111
-111111
-111111
-CHAR 217
-000000
-000000
-111111
-111111
-111111
-111111
-111111
-111111
-CHAR 218
-000000
-111111
-111111
-111111
-111111
-111111
-111111
-111111
-CHAR 219
-111111
-111111
-111111
-111111
-111111
-111111
-111111
-111111
 CHAR 220
-100000
-100000
-100000
-100000
-100000
-100000
-100000
-100000
-CHAR 221
-110000
-110000
-110000
-110000
-110000
-110000
-110000
-110000
-CHAR 222
-111000
-111000
-111000
-111000
-111000
-111000
-111000
-111000
+001010
+000000
+010010
+010010
+010010
+010010
+001100
+000000
 CHAR 223
-111100
-111100
-111100
-111100
-111100
-111100
-111100
-111100
+000000
+011100
+010010
+011100
+010010
+010010
+011100
+010000
 CHAR 224
-111110
-111110
-111110
-111110
-111110
-111110
-111110
-111110
+001100
+000000
+001110
+000001
+001111
+010001
+001111
+000000
 CHAR 225
+000110
 000000
-011100
-010010
-011100
-010010
-010010
-011100
-010000
+001110
+000001
+001111
+010001
+001111
+000000
 CHAR 226
-011110
-010010
-010000
-010000
-010000
-010000
-010000
+001110
 000000
-CHAR 227
-000000
-011111
-001010
-001010
-001010
-001010
-001010
+001110
+000001
+001111
+010001
+001111
 000000
 CHAR 228
 001010
@@ -9335,42 +9373,222 @@ CHAR 228
 001111
 000000
 CHAR 229
-000000
-000000
+001110
+001010
+001110
+000001
 001111
-010010
-010010
-001100
-000000
+010001
+001111
 000000
 CHAR 230
 000000
 000000
-010010
-010010
-010010
-011100
-010000
-010000
+011110
+000101
+011111
+010100
+001111
+000000
 CHAR 231
 000000
-000000
-001010
-010100
-000100
-000100
-000100
-000000
-CHAR 232
 001110
-000100
-001110
+010001
+010000
 010001
 001110
 000100
+001100
+CHAR 232
+001100
+000000
+001110
+010001
+011110
+010000
 001110
 000000
 CHAR 233
+000011
+000000
+001110
+010001
+011110
+010000
+001110
+000000
+CHAR 234
+001110
+000000
+001110
+010001
+011110
+010000
+001110
+000000
+CHAR 235
+001010
+000000
+001110
+010001
+011110
+010000
+001110
+000000
+CHAR 236
+001000
+000000
+000100
+000100
+000100
+000100
+000110
+000000
+CHAR 237
+000110
+000000
+000100
+000100
+000100
+000100
+000110
+000000
+CHAR 238
+000100
+001010
+000000
+000100
+000100
+000100
+000110
+000000
+CHAR 239
+001010
+000000
+000100
+000100
+000100
+000100
+000110
+000000
+CHAR 241
+001010
+010100
+000000
+011100
+010010
+010010
+010010
+000000
+CHAR 242
+011000
+000000
+001100
+010010
+010010
+010010
+001100
+000000
+CHAR 243
+000110
+000000
+001100
+010010
+010010
+010010
+001100
+000000
+CHAR 244
+001110
+000000
+001100
+010010
+010010
+010010
+001100
+000000
+CHAR 246
+001010
+000000
+001100
+010010
+010010
+010010
+001100
+000000
+CHAR 247
+001010
+000000
+001110
+010001
+010001
+010001
+001110
+000000
+CHAR 249
+011000
+000000
+010010
+010010
+010010
+010110
+001010
+000000
+CHAR 250
+000110
+000000
+010010
+010010
+010010
+010110
+001010
+000000
+CHAR 251
+001110
+000000
+010010
+010010
+010010
+010110
+001010
+000000
+CHAR 252
+010010
+000000
+010010
+010010
+010010
+010110
+001010
+000000
+CHAR 255
+001010
+000000
+010010
+010010
+010010
+001110
+000100
+011000
+CHAR 402
+000010
+000101
+000100
+001110
+000100
+000100
+010100
+001000
+CHAR 915
+011110
+010010
+010000
+010000
+010000
+010000
+010000
+000000
+CHAR 920
 001100
 010010
 010010
@@ -9379,7 +9597,25 @@ CHAR 233
 010010
 001100
 000000
-CHAR 234
+CHAR 931
+011111
+010000
+001000
+000100
+001000
+010000
+011111
+000000
+CHAR 934
+001110
+000100
+001110
+010001
+001110
+000100
+001110
+000000
+CHAR 937
 000000
 001110
 010001
@@ -9388,7 +9624,7 @@ CHAR 234
 001010
 011011
 000000
-CHAR 235
+CHAR 948
 001100
 010000
 001000
@@ -9397,25 +9633,7 @@ CHAR 235
 010010
 001100
 000000
-CHAR 236
-000000
-000000
-001010
-010101
-010101
-001010
-000000
-000000
-CHAR 237
-000000
-000100
-001110
-010101
-010101
-001110
-000100
-000000
-CHAR 238
+CHAR 949
 000000
 001110
 010000
@@ -9424,34 +9642,133 @@ CHAR 238
 001110
 000000
 000000
-CHAR 239
+CHAR 960
+000000
+011111
+001010
+001010
+001010
+001010
+001010
+000000
+CHAR 963
+000000
+000000
+001111
+010010
+010010
+001100
+000000
+000000
+CHAR 964
+000000
+000000
+001010
+010100
+000100
+000100
+000100
+000000
+CHAR 966
+000000
+000100
+001110
+010101
+010101
+001110
+000100
+000000
+CHAR 8226
+000000
+000000
 000000
 001100
-010010
-010010
-010010
-010010
+001100
 000000
 000000
-CHAR 240
 000000
-011110
+CHAR 8252
+001010
+001010
+001010
+001010
+001010
 000000
-011110
+001010
 000000
-011110
-000000
-000000
-CHAR 241
+CHAR 8592
 000000
 000100
+001100
+011111
+001100
+000100
+000000
+000000
+CHAR 8593
+000100
+001110
+011111
+000100
+000100
+000100
+000100
+000000
+CHAR 8594
+000000
+000100
+000110
+011111
+000110
+000100
+000000
+000000
+CHAR 8595
+000100
+000100
+000100
+000100
+011111
 001110
 000100
 000000
-001110
+CHAR 8734
 000000
 000000
-CHAR 242
+001010
+010101
+010101
+001010
+000000
+000000
+CHAR 8735
+000000
+000000
+000000
+010000
+010000
+010000
+011111
+000000
+CHAR 8801
+000000
+011110
+000000
+011110
+000000
+011110
+000000
+000000
+CHAR 8804
+000010
+001100
+010000
+001100
+000010
+000000
+011110
+000000
+CHAR 8805
 010000
 001100
 000010
@@ -9460,123 +9777,637 @@ CHAR 242
 000000
 011110
 000000
-CHAR 243
+CHAR 8962
+000100
+001110
+011011
+010001
+010001
+011111
+000000
+000000
+CHAR 8976
+000000
+000000
+011111
+010000
+010000
+010000
+000000
+000000
+CHAR 9472
+000000
 000000
 000000
 111111
-111000
-100110
-100001
-100000
-111111
-CHAR 244
 000000
 000000
-111111
+000000
+000000
+CHAR 9474
+000100
+000100
+000100
+000100
+000100
+000100
+000100
+000100
+CHAR 9488
+000000
+000000
+000000
+111100
+000100
+000100
+000100
+000100
+CHAR 9492
+000100
+000100
+000100
 000111
-011001
-100001
-000001
+000000
+000000
+000000
+000000
+CHAR 9500
+000100
+000100
+000100
+000111
+000100
+000100
+000100
+000100
+CHAR 9508
+000100
+000100
+000100
+111100
+000100
+000100
+000100
+000100
+CHAR 9516
+000000
+000000
+000000
 111111
-CHAR 245
 000100
 000100
 000100
 000100
+CHAR 9524
 000100
+000100
+000100
+111111
+000000
+000000
+000000
+000000
+CHAR 9532
+000100
+000100
+000100
+111111
+000100
+000100
+000100
+000100
+CHAR 9552
+000000
+111111
+000000
+111111
+000000
+000000
+000000
+000000
+CHAR 9553
 010100
-001000
+010100
+010100
+010100
+010100
+010100
+010100
+010100
+CHAR 9556
 000000
-CHAR 246
-001010
+011111
+010000
+010111
+010100
+010100
+010100
+010100
+CHAR 9557
 000000
-001110
-010001
-010001
-010001
-001110
-000000
-CHAR 247
-111110
-111110
-111110
-111110
-111110
-111110
-111110
-111110
-CHAR 248
 111100
-111100
-111100
-111100
-111100
-111100
-111100
-111100
-CHAR 249
-111000
-111000
-111000
-111000
-111000
-111000
-111000
-111000
-CHAR 250
-110000
-110000
-110000
-110000
-110000
-110000
-110000
-110000
-CHAR 251
-100000
-100000
-100000
-100000
-100000
-100000
-100000
-100000
-CHAR 252
-001010
-000000
-010010
-010010
-010010
-010110
-001010
-000000
-CHAR 253
-011000
 000100
-001000
+111100
+000100
+000100
+000100
+000100
+CHAR 9558
+000000
+000000
+000000
+111100
+010100
+010100
+010100
+010100
+CHAR 9559
+000000
+111100
+000100
+110100
+010100
+010100
+010100
+010100
+CHAR 9561
+010100
+010100
+010100
+011111
+000000
+000000
+000000
+000000
+CHAR 9562
+010100
+010111
+010000
+011111
+000000
+000000
+000000
+000000
+CHAR 9563
+000100
+111100
+000100
+111100
+000000
+000000
+000000
+000000
+CHAR 9564
+010100
+010100
+010100
+111100
+000000
+000000
+000000
+000000
+CHAR 9565
+010100
+110100
+000100
+111100
+000000
+000000
+000000
+000000
+CHAR 9566
+000100
+000111
+000100
+000111
+000100
+000100
+000100
+000100
+CHAR 9567
+010100
+010100
+010100
+010111
+010100
+010100
+010100
+010100
+CHAR 9568
+010100
+010111
+010000
+010111
+010100
+010100
+010100
+010100
+CHAR 9569
+000000
+000000
+010010
+010010
+010010
 011100
+010000
+010000
+CHAR 9570
+010100
+010100
+010100
+110100
+010100
+010100
+010100
+010100
+CHAR 9571
+010100
+110100
+000100
+110100
+010100
+010100
+010100
+010100
+CHAR 9572
+000000
+111111
+000000
+111111
+000100
+000100
+000100
+000100
+CHAR 9573
+000000
+000000
+000000
+111111
+010100
+010100
+010100
+010100
+CHAR 9574
+000000
+111111
+000000
+110111
+010100
+010100
+010100
+010100
+CHAR 9575
+000100
+111111
+000000
+111111
 000000
 000000
 000000
 000000
-CHAR 254
+CHAR 9576
+010100
+010100
+010100
+111111
+000000
+000000
+000000
+000000
+CHAR 9577
+010100
+110111
+000000
+111111
+000000
+000000
+000000
+000000
+CHAR 9580
+010100
+110111
+000000
+110111
+010100
+010100
+010100
+010100
+CHAR 9601
+000000
+000000
+000000
+000000
+000000
+000000
+000000
+111111
+CHAR 9602
+000000
+000000
+000000
+000000
+000000
+000000
+111111
+111111
+CHAR 9603
+000000
+000000
+000000
+000000
+000000
+111111
+111111
+111111
+CHAR 9604
+000000
+000000
+000000
+000000
+111111
+111111
+111111
+111111
+CHAR 9605
+000000
+000000
+000000
+111111
+111111
+111111
+111111
+111111
+CHAR 9606
+000000
+000000
+111111
+111111
+111111
+111111
+111111
+111111
+CHAR 9607
+000000
+111111
+111111
+111111
+111111
+111111
+111111
+111111
+CHAR 9608
+111111
+111111
+111111
+111111
+111111
+111111
+111111
+111111
+CHAR 9609
+111100
+111100
+111100
+111100
+111100
+111100
+111100
+111100
+CHAR 9610
+111100
+111100
+111100
+111100
+111100
+111100
+111100
+111100
+CHAR 9611
+111000
+111000
+111000
+111000
+111000
+111000
+111000
+111000
+CHAR 9613
+110000
+110000
+110000
+110000
+110000
+110000
+110000
+110000
+CHAR 9615
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+CHAR 9617
+010101
+000000
+101010
+000000
+010101
+000000
+101010
+000000
+CHAR 9618
+010101
+101010
+010101
+101010
+010101
+101010
+010101
+101010
+CHAR 9619
+101010
+111111
+010101
+111111
+101010
+111111
+010101
+111111
+CHAR 9644
+000000
+000000
 000000
 000000
 000000
 011110
-110010
-110011
-111110
+011110
+000000
+CHAR 9650
+000100
+000100
+001110
+001110
+011111
+011111
+000000
+000000
+CHAR 9658
+001000
+001100
+001110
 001111
-CHAR 255
-010010
-111111
-010010
-010010
-111111
-010010
+001110
+001100
+001000
+000000
+CHAR 9660
+011111
+011111
+001110
+001110
+000100
+000100
 000000
 000000
+CHAR 9668
+000010
+000110
+001110
+011110
+001110
+000110
+000010
+000000
+CHAR 9675
+000000
+000000
+011110
+010010
+010010
+011110
+000000
+000000
+CHAR 9688
+111111
+111111
+111111
+110011
+110011
+111111
+111111
+111111
+CHAR 9689
+111111
+111111
+100001
+101101
+101101
+100001
+111111
+111111
+CHAR 9786
+001110
+010001
+011011
+010001
+010101
+010001
+001110
+000000
+CHAR 9787
+001110
+011111
+010101
+011111
+010001
+011111
+001110
+000000
+CHAR 9788
+000000
+010101
+001110
+011011
+001110
+010101
+000000
+000000
+CHAR 9792
+001110
+010001
+010001
+001110
+000100
+001110
+000100
+000000
+CHAR 9794
+000000
+000111
+000011
+001101
+010010
+010010
+001100
+000000
+CHAR 9824
+000000
+000100
+001110
+011111
+011111
+000100
+001110
+000000
+CHAR 9827
+000100
+001110
+001110
+000100
+011111
+011111
+000100
+000000
+CHAR 9829
+000000
+001010
+011111
+011111
+011111
+001110
+000100
+000000
+CHAR 9830
+000000
+000100
+001110
+011111
+011111
+001110
+000100
+000000
+CHAR 9834
+000100
+000110
+000101
+000100
+001100
+011100
+011000
+000000
+CHAR 9835
+000011
+001101
+001011
+001101
+001011
+011011
+011000
+000000
+</script>
 </script>
 
 </head>
