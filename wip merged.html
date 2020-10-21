@@ -390,8 +390,8 @@ o,o,o,o,0,0,0,add_d,0,0,o,add_d,0,0,0,0
 e,e,add_d,o,o,o,o,o,o,o,o,o,0,0,0,0
 0,0,add_d,o,0,0,0,0,0,0,0,o,0,0,0,0
 0,0,add_d,o,ade,0,add_d,0,add_d,0,ade,o,o,o,o,o
-0,0,add_d,o,add_d,0,add_d,0,add_d,0,0,o,adi,adi,adi,adi
-0,0,adf,o,add_d,0,add_d,0,add_d,0,0,o,adi,adi,adi,adi
+0,0,add_d,o,add_d,0,add_d,0,add_d,0,0,o,0,0,0,adm
+0,0,adf,o,add_d,0,add_d,0,add_d,0,0,o,0,0,0,0
 o,o,o,o,add_d,0,add_d,0,add_d,0,0,o,o,o,o,o
 adi,adi,adi,o,add_d,0,add_d,0,add_d,0,0,o,0,0,0,0
 adi,adi,adi,o,e,e,e,e,e,e,e,o,0,0,0,0
@@ -401,6 +401,7 @@ adh,e,e,e,e,e,e,add_d,o,add_d,add_d,o,adf,0,0,0
 0,0,0,0,0,0,0,adf,o,add_d,add_d,o,o,o,o,o
 NAME level 3-2
 ITM ade 3,13
+ITM adg 12,8
 EXT 9,15 add_fix4 9,0
 EXT 10,15 add_fix4 10,0
 EXT 2,8 6 9,6
@@ -413,6 +414,7 @@ EXT 4,3 7 5,10
 EXT 15,3 7 0,10
 EXT 11,0 6 1,0
 EXT 0,14 add_fix5 10,6
+EXT 15,7 0 7,12
 PAL add_fix1
 
 ROOM add_2
@@ -962,6 +964,27 @@ TIL adk
 NAME magicWall
 WAL true
 
+TIL adl
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+
+TIL adm
+11111111
+00000001
+00100001
+00000001
+00000001
+00000001
+00000001
+11111111
+NAME 3-door right
+
 SPR A
 00000000
 00000000
@@ -997,7 +1020,7 @@ SPR add_fixb
 11111111
 10000001
 10111101
-10001001
+10000001
 11111111
 00011000
 00011000
@@ -1008,23 +1031,14 @@ POS add_fix5 6,5
 
 SPR g
 11111111
-11111111
 10000001
 10000001
-11111111
-11100111
-11000011
-11111111
->
-11111111
-11111111
 10000001
 10000001
-11111111
-11100111
-11000011
-11111111
-NAME 3-chest
+10100001
+10000001
+10000001
+NAME 3-door-up
 DLG adk
 POS add_fix5 8,5
 
@@ -1377,6 +1391,27 @@ ITM adf
 00000000
 00000000
 
+ITM adg
+00000000
+00000000
+00000000
+01010100
+00100100
+01010010
+01010100
+00111000
+>
+10001001
+00100011
+11010100
+01111001
+10101101
+10111010
+01111110
+00111100
+NAME 3-fire-orb
+DLG adq
+
 DLG 5
 """
 {
@@ -1456,7 +1491,7 @@ Hey trespasser, you're not allowed here!
 NAME exit narration 13
 
 DLG add_fix7
-The chest contains the fire orb.
+Find the key to unlock the door and get the Fire Orb.
 NAME sign2 dialog
 
 DLG add_7
@@ -1528,20 +1563,17 @@ DLG adf
 As you pass the fake tree, it morphs into a real tree. Looks like you can't go back this way.
 NAME exit narration 14
 
-DLG adj
- Obtained key.
-NAME 3-key dialog
-
 DLG adk
 """
 {
   - {item "3-key"} == 1 ?
-    Obtained Fire orb.
+    The door is unlocked.
+    {exit "add_fix5" 15 7 "tunnel"}
   - else ?
-    You need a key to open the chest.
+    The door is locked. You need a key to open the door.
 }
 """
-NAME 3-chest dialog
+NAME 3-door dialog
 
 DLG adl
 I'm Princess Weenie!
@@ -1587,6 +1619,10 @@ DLG adp
 }
 """
 NAME fire exit
+
+DLG adq
+You have obtained the Fire Orb.
+NAME 3-fire-orb dialog
 
 VAR sneak
 false
@@ -10521,6 +10557,7 @@ CHAR 255
 010010
 000000
 000000
+</script>
 </script>
 </script>
 </script>
