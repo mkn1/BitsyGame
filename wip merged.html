@@ -27,7 +27,7 @@ PAL 1
 0,140,255
 
 PAL 0<!DOCTYPE
-NaN,NaN,
+NaN,NaN,NaN
 
 PAL add_fix0
 NAME blueprint
@@ -229,7 +229,7 @@ PAL 0
 
 ROOM 5
 0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
-0,0,0,m,m,m,m,e,0,0,0,0,k,0,0,0
+0,0,0,m,m,m,m,e,u,0,0,0,k,0,0,0
 0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
 0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,k
 0,0,0,j,j,j,j,0,0,l,0,0,0,0,0,0
@@ -245,13 +245,7 @@ ROOM 5
 0,0,0,j,j,j,j,0,0,0,0,0,0,0,0,0
 0,i,0,j,j,j,j,0,0,0,0,i,0,0,0,0
 NAME level 2-4
-ITM 1 15,9
-ITM 3 15,15
-ITM 3 7,11
-ITM 3 15,1
-ITM 3 7,0
 ITM 1 15,5
-ITM 3 7,6
 EXT 11,12 2 13,13 DLG c
 EXT 14,12 2 13,13 DLG 9
 EXT 8,7 2 13,13 DLG g
@@ -267,13 +261,6 @@ EXT 11,15 4 11,0
 EXT 1,15 4 1,0
 EXT 6,1 5 5,1 DLG l
 EXT 5,1 5 6,1
-EXT 7,0 5 10,15 DLG d
-EXT 15,9 5 10,15 DLG d
-EXT 15,1 5 10,15 DLG d
-EXT 7,6 5 10,15 DLG d
-EXT 7,11 5 10,15 DLG d
-EXT 15,15 5 10,15 DLG d
-EXT 8,1 2 13,13 DLG 8
 EXT 10,4 2 13,13 DLG 8
 EXT 9,1 2 13,13 DLG 8
 EXT 10,1 2 13,13 DLG 8
@@ -1006,7 +993,7 @@ SPR A
 00011100
 00111100
 00010100
-POS 0 10,13
+POS 5 13,14
 
 SPR d
 00001000
@@ -1305,6 +1292,84 @@ SPR adj
 10000001
 10000001
 
+SPR adk
+00000000
+00111100
+00100100
+00111100
+00010000
+00011000
+00010000
+00011000
+NAME 2-fake key
+DLG adu
+POS 5 15,15
+
+SPR adl
+00000000
+00111100
+00100100
+00111100
+00010000
+00011000
+00010000
+00011000
+NAME 2-fake key2
+DLG adv
+POS 5 7,11
+
+SPR adm
+00000000
+00111100
+00100100
+00111100
+00010000
+00011000
+00010000
+00011000
+NAME 2-fake key3
+DLG adw
+POS 5 7,6
+
+SPR adn
+00000000
+00111100
+00100100
+00111100
+00010000
+00011000
+00010000
+00011000
+NAME 2-fake key4
+DLG adx
+POS 5 15,1
+
+SPR ado
+00000000
+00111100
+00100100
+00111100
+00010000
+00011000
+00010000
+00011000
+NAME 2-fake key5
+DLG ady
+POS 5 15,9
+
+SPR adp
+00000000
+00111100
+00100100
+00111100
+00010000
+00011000
+00010000
+00011000
+NAME 2-fake key6
+DLG adz
+POS 5 7,0
+
 ITM 1
 00000000
 00111100
@@ -1414,16 +1479,6 @@ ITM adg
 00111100
 NAME 3-fire-orb
 DLG adq
-
-ITM adf
-00000000
-00000000
-00000000
-00000000
-00000000
-00000000
-00000000
-00000000
 
 DLG 5
 """
@@ -1651,6 +1706,30 @@ NAME sneak dialog
 DLG adt
 Obtained a key.
 NAME 3-key dialog
+
+DLG adu
+This doesn't seem like the right key...
+NAME 2-fake key dialog
+
+DLG adv
+This doesn't seem like the right key...
+NAME 2-fake key2 dialog
+
+DLG adw
+This doesn't seem like the right key...
+NAME 2-fake key3 dialog
+
+DLG adx
+This doesn't seem like the right key...
+NAME 2-fake key4 dialog
+
+DLG ady
+This doesn't seem like the right key...
+NAME 2-fake key5 dialog
+
+DLG adz
+This doesn't seem like the right key...
+NAME 2-fake key6 dialog
 
 VAR sneak
 false
@@ -10585,6 +10664,7 @@ CHAR 255
 010010
 000000
 000000
+</script>
 </script>
 </script>
 
